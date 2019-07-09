@@ -80,6 +80,7 @@ void usblinkTxTask(void *param)
 	u8 dataLen;
 	while(1)
 	{
+		int i = 0;
 		xQueueReceive(txQueue, &p, portMAX_DELAY);
 		
 		sendBuffer[0] = UP_BYTE1;
@@ -88,7 +89,7 @@ void usblinkTxTask(void *param)
 		sendBuffer[3] = p.dataLen;
 		memcpy(&sendBuffer[4], p.data, p.dataLen);
 		cksum = 0;
-		for (int i = 0; i < p.dataLen+4; i++)
+		for (i = 0; i < p.dataLen+4; i++)
 		{
 			cksum += sendBuffer[i];
 		}

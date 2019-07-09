@@ -1,0 +1,39 @@
+VisualGDB/Debug/power_control.o: E:/VS_GDB/MiniFlyMaster/FLIGHT/src/power_control.c
+VisualGDB/Debug/power_control.o: ../../../../FLIGHT/interface/power_control.h
+VisualGDB/Debug/power_control.o: ../../../../FLIGHT/interface/stabilizer_types.h
+VisualGDB/Debug/power_control.o: ../../../../SYSTEM/sys/sys.h
+VisualGDB/Debug/power_control.o: ../../../../USER/stm32f4xx.h
+VisualGDB/Debug/power_control.o: ../../../../CORE/core_cm4.h
+VisualGDB/Debug/power_control.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\stdint.h
+VisualGDB/Debug/power_control.o: ../../../../CORE/core_cmInstr.h
+VisualGDB/Debug/power_control.o: ../../../../CORE/core_cmFunc.h
+VisualGDB/Debug/power_control.o: ../../../../CORE/core_cm4_simd.h
+VisualGDB/Debug/power_control.o: ../../../../USER/system_stm32f4xx.h
+VisualGDB/Debug/power_control.o: ../../../../USER/stm32f4xx_conf.h
+VisualGDB/Debug/power_control.o: ../../../../FWLIB/inc/stm32f4xx_adc.h
+VisualGDB/Debug/power_control.o: ../../../../USER/stm32f4xx.h
+VisualGDB/Debug/power_control.o: ../../../../FWLIB/inc/stm32f4xx_crc.h
+VisualGDB/Debug/power_control.o: ../../../../FWLIB/inc/stm32f4xx_dbgmcu.h
+VisualGDB/Debug/power_control.o: ../../../../FWLIB/inc/stm32f4xx_dma.h
+VisualGDB/Debug/power_control.o: ../../../../FWLIB/inc/stm32f4xx_exti.h
+VisualGDB/Debug/power_control.o: ../../../../FWLIB/inc/stm32f4xx_flash.h
+VisualGDB/Debug/power_control.o: ../../../../FWLIB/inc/stm32f4xx_gpio.h
+VisualGDB/Debug/power_control.o: ../../../../FWLIB/inc/stm32f4xx_i2c.h
+VisualGDB/Debug/power_control.o: ../../../../FWLIB/inc/stm32f4xx_iwdg.h
+VisualGDB/Debug/power_control.o: ../../../../FWLIB/inc/stm32f4xx_pwr.h
+VisualGDB/Debug/power_control.o: ../../../../FWLIB/inc/stm32f4xx_rcc.h
+VisualGDB/Debug/power_control.o: ../../../../FWLIB/inc/stm32f4xx_rtc.h
+VisualGDB/Debug/power_control.o: ../../../../FWLIB/inc/stm32f4xx_sdio.h
+VisualGDB/Debug/power_control.o: ../../../../FWLIB/inc/stm32f4xx_spi.h
+VisualGDB/Debug/power_control.o: ../../../../FWLIB/inc/stm32f4xx_syscfg.h
+VisualGDB/Debug/power_control.o: ../../../../FWLIB/inc/stm32f4xx_tim.h
+VisualGDB/Debug/power_control.o: ../../../../FWLIB/inc/stm32f4xx_usart.h
+VisualGDB/Debug/power_control.o: ../../../../FWLIB/inc/stm32f4xx_wwdg.h
+VisualGDB/Debug/power_control.o: ../../../../FWLIB/inc/misc.h
+VisualGDB/Debug/power_control.o: ../../../../FWLIB/inc/stm32f4xx_flash_ramfunc.h
+VisualGDB/Debug/power_control.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\stdbool.h
+VisualGDB/Debug/power_control.o: ../../../../FLIGHT/interface/sensors_types.h
+VisualGDB/Debug/power_control.o: ../../../../HARDWARE/interface/motors.h
+VisualGDB/Debug/power_control.o: ../../../../CONFIG/interface/config.h
+VisualGDB/Debug/power_control.o: ../../../../HARDWARE/interface/nvic.h
+VisualGDB/Debug/power_control.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\stdio.h

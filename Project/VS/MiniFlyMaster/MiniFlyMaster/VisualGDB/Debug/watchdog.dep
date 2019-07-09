@@ -1,0 +1,38 @@
+VisualGDB/Debug/watchdog.o: E:/VS_GDB/MiniFlyMaster/HARDWARE/src/watchdog.c
+VisualGDB/Debug/watchdog.o: ../../../../CONFIG/interface/config.h
+VisualGDB/Debug/watchdog.o: ../../../../HARDWARE/interface/nvic.h
+VisualGDB/Debug/watchdog.o: ../../../../SYSTEM/sys/sys.h
+VisualGDB/Debug/watchdog.o: ../../../../USER/stm32f4xx.h
+VisualGDB/Debug/watchdog.o: ../../../../CORE/core_cm4.h
+VisualGDB/Debug/watchdog.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\stdint.h
+VisualGDB/Debug/watchdog.o: ../../../../CORE/core_cmInstr.h
+VisualGDB/Debug/watchdog.o: ../../../../CORE/core_cmFunc.h
+VisualGDB/Debug/watchdog.o: ../../../../CORE/core_cm4_simd.h
+VisualGDB/Debug/watchdog.o: ../../../../USER/system_stm32f4xx.h
+VisualGDB/Debug/watchdog.o: ../../../../USER/stm32f4xx_conf.h
+VisualGDB/Debug/watchdog.o: ../../../../FWLIB/inc/stm32f4xx_adc.h
+VisualGDB/Debug/watchdog.o: ../../../../USER/stm32f4xx.h
+VisualGDB/Debug/watchdog.o: ../../../../FWLIB/inc/stm32f4xx_crc.h
+VisualGDB/Debug/watchdog.o: ../../../../FWLIB/inc/stm32f4xx_dbgmcu.h
+VisualGDB/Debug/watchdog.o: ../../../../FWLIB/inc/stm32f4xx_dma.h
+VisualGDB/Debug/watchdog.o: ../../../../FWLIB/inc/stm32f4xx_exti.h
+VisualGDB/Debug/watchdog.o: ../../../../FWLIB/inc/stm32f4xx_flash.h
+VisualGDB/Debug/watchdog.o: ../../../../FWLIB/inc/stm32f4xx_gpio.h
+VisualGDB/Debug/watchdog.o: ../../../../FWLIB/inc/stm32f4xx_i2c.h
+VisualGDB/Debug/watchdog.o: ../../../../FWLIB/inc/stm32f4xx_iwdg.h
+VisualGDB/Debug/watchdog.o: ../../../../FWLIB/inc/stm32f4xx_pwr.h
+VisualGDB/Debug/watchdog.o: ../../../../FWLIB/inc/stm32f4xx_rcc.h
+VisualGDB/Debug/watchdog.o: ../../../../FWLIB/inc/stm32f4xx_rtc.h
+VisualGDB/Debug/watchdog.o: ../../../../FWLIB/inc/stm32f4xx_sdio.h
+VisualGDB/Debug/watchdog.o: ../../../../FWLIB/inc/stm32f4xx_spi.h
+VisualGDB/Debug/watchdog.o: ../../../../FWLIB/inc/stm32f4xx_syscfg.h
+VisualGDB/Debug/watchdog.o: ../../../../FWLIB/inc/stm32f4xx_tim.h
+VisualGDB/Debug/watchdog.o: ../../../../FWLIB/inc/stm32f4xx_usart.h
+VisualGDB/Debug/watchdog.o: ../../../../FWLIB/inc/stm32f4xx_wwdg.h
+VisualGDB/Debug/watchdog.o: ../../../../FWLIB/inc/misc.h
+VisualGDB/Debug/watchdog.o: ../../../../FWLIB/inc/stm32f4xx_flash_ramfunc.h
+VisualGDB/Debug/watchdog.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\stdio.h
+VisualGDB/Debug/watchdog.o: ../../../../HARDWARE/interface/watchdog.h
+VisualGDB/Debug/watchdog.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\stdbool.h
+VisualGDB/Debug/watchdog.o: ../../../../COMMON/interface/debug_assert.h
+VisualGDB/Debug/watchdog.o: ../../../../COMMUNICATE/interface/console.h

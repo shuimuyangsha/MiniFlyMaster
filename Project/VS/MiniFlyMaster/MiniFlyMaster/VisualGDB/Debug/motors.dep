@@ -1,0 +1,39 @@
+VisualGDB/Debug/motors.o: E:/VS_GDB/MiniFlyMaster/HARDWARE/src/motors.c
+VisualGDB/Debug/motors.o: ../../../../SYSTEM/sys/sys.h
+VisualGDB/Debug/motors.o: ../../../../USER/stm32f4xx.h
+VisualGDB/Debug/motors.o: ../../../../CORE/core_cm4.h
+VisualGDB/Debug/motors.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\stdint.h
+VisualGDB/Debug/motors.o: ../../../../CORE/core_cmInstr.h
+VisualGDB/Debug/motors.o: ../../../../CORE/core_cmFunc.h
+VisualGDB/Debug/motors.o: ../../../../CORE/core_cm4_simd.h
+VisualGDB/Debug/motors.o: ../../../../USER/system_stm32f4xx.h
+VisualGDB/Debug/motors.o: ../../../../USER/stm32f4xx_conf.h
+VisualGDB/Debug/motors.o: ../../../../FWLIB/inc/stm32f4xx_adc.h
+VisualGDB/Debug/motors.o: ../../../../USER/stm32f4xx.h
+VisualGDB/Debug/motors.o: ../../../../FWLIB/inc/stm32f4xx_crc.h
+VisualGDB/Debug/motors.o: ../../../../FWLIB/inc/stm32f4xx_dbgmcu.h
+VisualGDB/Debug/motors.o: ../../../../FWLIB/inc/stm32f4xx_dma.h
+VisualGDB/Debug/motors.o: ../../../../FWLIB/inc/stm32f4xx_exti.h
+VisualGDB/Debug/motors.o: ../../../../FWLIB/inc/stm32f4xx_flash.h
+VisualGDB/Debug/motors.o: ../../../../FWLIB/inc/stm32f4xx_gpio.h
+VisualGDB/Debug/motors.o: ../../../../FWLIB/inc/stm32f4xx_i2c.h
+VisualGDB/Debug/motors.o: ../../../../FWLIB/inc/stm32f4xx_iwdg.h
+VisualGDB/Debug/motors.o: ../../../../FWLIB/inc/stm32f4xx_pwr.h
+VisualGDB/Debug/motors.o: ../../../../FWLIB/inc/stm32f4xx_rcc.h
+VisualGDB/Debug/motors.o: ../../../../FWLIB/inc/stm32f4xx_rtc.h
+VisualGDB/Debug/motors.o: ../../../../FWLIB/inc/stm32f4xx_sdio.h
+VisualGDB/Debug/motors.o: ../../../../FWLIB/inc/stm32f4xx_spi.h
+VisualGDB/Debug/motors.o: ../../../../FWLIB/inc/stm32f4xx_syscfg.h
+VisualGDB/Debug/motors.o: ../../../../FWLIB/inc/stm32f4xx_tim.h
+VisualGDB/Debug/motors.o: ../../../../FWLIB/inc/stm32f4xx_usart.h
+VisualGDB/Debug/motors.o: ../../../../FWLIB/inc/stm32f4xx_wwdg.h
+VisualGDB/Debug/motors.o: ../../../../FWLIB/inc/misc.h
+VisualGDB/Debug/motors.o: ../../../../FWLIB/inc/stm32f4xx_flash_ramfunc.h
+VisualGDB/Debug/motors.o: ../../../../SYSTEM/delay/delay.h
+VisualGDB/Debug/motors.o: ../../../../HARDWARE/interface/motors.h
+VisualGDB/Debug/motors.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\stdbool.h
+VisualGDB/Debug/motors.o: ../../../../CONFIG/interface/config.h
+VisualGDB/Debug/motors.o: ../../../../HARDWARE/interface/nvic.h
+VisualGDB/Debug/motors.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\stdio.h
+VisualGDB/Debug/motors.o: ../../../../COMMUNICATE/interface/pm.h
+VisualGDB/Debug/motors.o: ../../../../COMMUNICATE/interface/atkp.h

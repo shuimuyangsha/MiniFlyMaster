@@ -113,8 +113,9 @@ enum expModuleID getModuleDriverID(void)
 	}
 	else //¼ì²âµ½Ä£¿é²åÉÏ
 	{
+		int i = 0;
 		u32 sum=0;
-		for(int i=0; i<ADC_SAMPLE_NUM; i++)
+		for(i=0; i<ADC_SAMPLE_NUM; i++)
 		{
 			sum += adcValue[i];
 		}

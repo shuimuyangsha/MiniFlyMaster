@@ -132,6 +132,7 @@ void radiolinkInit(void)
 /*打包ATKPPacket数据通过串口DMA发送*/
 static void uartSendPacket(atkp_t *p)
 {
+	int i = 0;
 	int dataSize;
 	u8 cksum = 0;
 	u8 sendBuffer[36];
@@ -146,7 +147,7 @@ static void uartSendPacket(atkp_t *p)
 	memcpy(&sendBuffer[4], p->data, p->dataLen);
 	dataSize = p->dataLen + 5;//加上cksum
 	/*计算校验和*/
-	for (int i=0; i<dataSize-1; i++)
+	for (i=0; i<dataSize-1; i++)
 	{
 		cksum += sendBuffer[i];
 	}

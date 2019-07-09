@@ -1,0 +1,63 @@
+VisualGDB/Debug/remoter_ctrl.o: E:/VS_GDB/MiniFlyMaster/COMMUNICATE/src/remoter_ctrl.c
+VisualGDB/Debug/remoter_ctrl.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\string.h
+VisualGDB/Debug/remoter_ctrl.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\math.h
+VisualGDB/Debug/remoter_ctrl.o: ../../../../COMMUNICATE/interface/remoter_ctrl.h
+VisualGDB/Debug/remoter_ctrl.o: ../../../../COMMUNICATE/interface/atkp.h
+VisualGDB/Debug/remoter_ctrl.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\stdint.h
+VisualGDB/Debug/remoter_ctrl.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\stdbool.h
+VisualGDB/Debug/remoter_ctrl.o: ../../../../SYSTEM/sys/sys.h
+VisualGDB/Debug/remoter_ctrl.o: ../../../../USER/stm32f4xx.h
+VisualGDB/Debug/remoter_ctrl.o: ../../../../CORE/core_cm4.h
+VisualGDB/Debug/remoter_ctrl.o: ../../../../CORE/core_cmInstr.h
+VisualGDB/Debug/remoter_ctrl.o: ../../../../CORE/core_cmFunc.h
+VisualGDB/Debug/remoter_ctrl.o: ../../../../CORE/core_cm4_simd.h
+VisualGDB/Debug/remoter_ctrl.o: ../../../../USER/system_stm32f4xx.h
+VisualGDB/Debug/remoter_ctrl.o: ../../../../USER/stm32f4xx_conf.h
+VisualGDB/Debug/remoter_ctrl.o: ../../../../FWLIB/inc/stm32f4xx_adc.h
+VisualGDB/Debug/remoter_ctrl.o: ../../../../USER/stm32f4xx.h
+VisualGDB/Debug/remoter_ctrl.o: ../../../../FWLIB/inc/stm32f4xx_crc.h
+VisualGDB/Debug/remoter_ctrl.o: ../../../../FWLIB/inc/stm32f4xx_dbgmcu.h
+VisualGDB/Debug/remoter_ctrl.o: ../../../../FWLIB/inc/stm32f4xx_dma.h
+VisualGDB/Debug/remoter_ctrl.o: ../../../../FWLIB/inc/stm32f4xx_exti.h
+VisualGDB/Debug/remoter_ctrl.o: ../../../../FWLIB/inc/stm32f4xx_flash.h
+VisualGDB/Debug/remoter_ctrl.o: ../../../../FWLIB/inc/stm32f4xx_gpio.h
+VisualGDB/Debug/remoter_ctrl.o: ../../../../FWLIB/inc/stm32f4xx_i2c.h
+VisualGDB/Debug/remoter_ctrl.o: ../../../../FWLIB/inc/stm32f4xx_iwdg.h
+VisualGDB/Debug/remoter_ctrl.o: ../../../../FWLIB/inc/stm32f4xx_pwr.h
+VisualGDB/Debug/remoter_ctrl.o: ../../../../FWLIB/inc/stm32f4xx_rcc.h
+VisualGDB/Debug/remoter_ctrl.o: ../../../../FWLIB/inc/stm32f4xx_rtc.h
+VisualGDB/Debug/remoter_ctrl.o: ../../../../FWLIB/inc/stm32f4xx_sdio.h
+VisualGDB/Debug/remoter_ctrl.o: ../../../../FWLIB/inc/stm32f4xx_spi.h
+VisualGDB/Debug/remoter_ctrl.o: ../../../../FWLIB/inc/stm32f4xx_syscfg.h
+VisualGDB/Debug/remoter_ctrl.o: ../../../../FWLIB/inc/stm32f4xx_tim.h
+VisualGDB/Debug/remoter_ctrl.o: ../../../../FWLIB/inc/stm32f4xx_usart.h
+VisualGDB/Debug/remoter_ctrl.o: ../../../../FWLIB/inc/stm32f4xx_wwdg.h
+VisualGDB/Debug/remoter_ctrl.o: ../../../../FWLIB/inc/misc.h
+VisualGDB/Debug/remoter_ctrl.o: ../../../../FWLIB/inc/stm32f4xx_flash_ramfunc.h
+VisualGDB/Debug/remoter_ctrl.o: ../../../../HARDWARE/interface/module_detect.h
+VisualGDB/Debug/remoter_ctrl.o: ../../../../CONFIG/interface/config_param.h
+VisualGDB/Debug/remoter_ctrl.o: ../../../../COMMUNICATE/interface/commander.h
+VisualGDB/Debug/remoter_ctrl.o: ../../../../CONFIG/interface/config.h
+VisualGDB/Debug/remoter_ctrl.o: ../../../../HARDWARE/interface/nvic.h
+VisualGDB/Debug/remoter_ctrl.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\stdio.h
+VisualGDB/Debug/remoter_ctrl.o: ../../../../FLIGHT/interface/stabilizer_types.h
+VisualGDB/Debug/remoter_ctrl.o: ../../../../FLIGHT/interface/sensors_types.h
+VisualGDB/Debug/remoter_ctrl.o: ../../../../FLIGHT/interface/flip.h
+VisualGDB/Debug/remoter_ctrl.o: ../../../../COMMUNICATE/interface/radiolink.h
+VisualGDB/Debug/remoter_ctrl.o: ../../../../FLIGHT/interface/sensors.h
+VisualGDB/Debug/remoter_ctrl.o: ../../../../COMMUNICATE/interface/pm.h
+VisualGDB/Debug/remoter_ctrl.o: ../../../../FLIGHT/interface/stabilizer.h
+VisualGDB/Debug/remoter_ctrl.o: ../../../../EXP_MODULES/interface/module_mgt.h
+VisualGDB/Debug/remoter_ctrl.o: ../../../../EXP_MODULES/interface/ledring12.h
+VisualGDB/Debug/remoter_ctrl.o: ../../../../FreeRTOS/include/FreeRTOS.h
+VisualGDB/Debug/remoter_ctrl.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\stddef.h
+VisualGDB/Debug/remoter_ctrl.o: ../../../../CONFIG/interface/FreeRTOSConfig.h
+VisualGDB/Debug/remoter_ctrl.o: ../../../../COMMON/interface/debug_assert.h
+VisualGDB/Debug/remoter_ctrl.o: ../../../../COMMUNICATE/interface/console.h
+VisualGDB/Debug/remoter_ctrl.o: ../../../../FreeRTOS/include/projdefs.h
+VisualGDB/Debug/remoter_ctrl.o: ../../../../FreeRTOS/include/portable.h
+VisualGDB/Debug/remoter_ctrl.o: ../../../../FreeRTOS/include/deprecated_definitions.h
+VisualGDB/Debug/remoter_ctrl.o: ../../../../FreeRTOS/portable/RVDS/ARM_CM4F/portmacro.h
+VisualGDB/Debug/remoter_ctrl.o: ../../../../FreeRTOS/include/mpu_wrappers.h
+VisualGDB/Debug/remoter_ctrl.o: ../../../../FreeRTOS/include/task.h
+VisualGDB/Debug/remoter_ctrl.o: ../../../../FreeRTOS/include/list.h

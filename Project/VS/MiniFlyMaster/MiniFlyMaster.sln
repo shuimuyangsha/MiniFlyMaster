@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MiniFlyMaster", "MiniFlyMaster\MiniFlyMaster.vcxproj", "{358BFE73-2AAD-4E3C-84C2-80A75C6E0C52}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|VisualGDB = Debug|VisualGDB
+		Release|VisualGDB = Release|VisualGDB
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{358BFE73-2AAD-4E3C-84C2-80A75C6E0C52}.Debug|VisualGDB.ActiveCfg = Debug|VisualGDB
+		{358BFE73-2AAD-4E3C-84C2-80A75C6E0C52}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
+		{358BFE73-2AAD-4E3C-84C2-80A75C6E0C52}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
+		{358BFE73-2AAD-4E3C-84C2-80A75C6E0C52}.Release|VisualGDB.Build.0 = Release|VisualGDB
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D0283352-A414-491B-9908-A1BB841B792B}
+	EndGlobalSection
+EndGlobal

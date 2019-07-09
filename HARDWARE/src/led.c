@@ -96,7 +96,8 @@ bool ledTest(void)
 /*关闭所有LED*/
 void ledClearAll(void)
 {	
-	for(u8 i=0; i<LED_NUM; i++)
+	u8 i = 0;
+	for(i=0; i<LED_NUM; i++)
 	{
 		ledSet((led_e)i, 0);
 	}
@@ -105,7 +106,8 @@ void ledClearAll(void)
 /*打开所有LED*/
 void ledSetAll(void)
 {
-	for(u8 i=0; i<LED_NUM; i++)
+	u8 i = 0;
+	for(i=0; i<LED_NUM; i++)
 	{
 		ledSet((led_e)i, 1);
 	}

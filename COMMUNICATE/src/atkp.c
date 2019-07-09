@@ -361,12 +361,13 @@ static void atkpSendPeriod(void)
 
 static u8 atkpCheckSum(atkp_t *packet)
 {
+	int i = 0;
 	u8 sum;
 	sum = DOWN_BYTE1;
 	sum += DOWN_BYTE2;
 	sum += packet->msgID;
 	sum += packet->dataLen;
-	for(int i=0; i<packet->dataLen; i++)
+	for(i=0; i<packet->dataLen; i++)
 	{
 		sum += packet->data[i];
 	}

@@ -78,7 +78,8 @@ static uint8_t headlight_test_counter =0;
 static bool test_front = false;
 static void colorTest(uint8_t buffer[][3], bool reset)
 {
-	for(int i=0; i<NBR_LEDS; i++)
+	int i = 0;
+	for(i=0; i<NBR_LEDS; i++)
 	{
 		buffer[i][0] = test_pat[test_eff_nbr][0];
 		buffer[i][1] = test_pat[test_eff_nbr][1];
@@ -213,7 +214,8 @@ static void binkLED(uint8_t buffer[][3], bool reset)
 /************* flashlight(°×É«ÊÖµçÍ²) ****************/
 static void flashlight(uint8_t buffer[][3], bool reset)
 {
-	for(int i=0; i<NBR_LEDS; i++) 
+	int i = 0;
+	for(i=0; i<NBR_LEDS; i++) 
 	{
 		buffer[i][0] = 0XFF;
 		buffer[i][1] = 0XFF;

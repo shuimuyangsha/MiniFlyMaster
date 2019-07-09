@@ -1,0 +1,406 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{a444782d-646a-42c9-a1d3-da8a3231788d}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{23078891-071c-454d-a7d5-e8c9cd8965aa}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{cd726b17-f5bf-43c8-81a0-047ffcf96645}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Source files\USER">
+      <UniqueIdentifier>{0434f718-f173-4823-94d3-841efc2c8e60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\SYSTEM">
+      <UniqueIdentifier>{b2514407-03d4-4dd6-8f05-214ec56ef884}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\CONFIG">
+      <UniqueIdentifier>{65f651cb-6d58-4493-85fe-1b7f262143b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\HARDWARE">
+      <UniqueIdentifier>{82c9e139-c553-41e5-9321-a61680ea3d4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\EXP_MODULES">
+      <UniqueIdentifier>{515a9266-9b5c-415c-9596-e138d5b37515}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\CORE">
+      <UniqueIdentifier>{328b6c13-500e-45e7-b27d-5ed7e35160c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\FWLIB">
+      <UniqueIdentifier>{759c4853-2a93-4731-94af-777b616ee574}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\FreeRTOS">
+      <UniqueIdentifier>{ac6b96aa-6eb2-43f2-8600-dc1b15fb8752}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\USB_OTG">
+      <UniqueIdentifier>{ea947327-8643-4181-b7c9-d2d4368d7a2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\USB_DEVICE">
+      <UniqueIdentifier>{85e555cd-c67b-4a75-8a38-ffe3df69ab25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\USB_APP">
+      <UniqueIdentifier>{1fa011d9-f6ee-4159-a793-98056ac42a7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\COMMUNICATE">
+      <UniqueIdentifier>{985376f9-d6fa-4bd4-bcee-9da3b2c30bfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\FLIGHT">
+      <UniqueIdentifier>{65307ba6-5b6e-4314-81c4-4b736ece9faa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\COMMON">
+      <UniqueIdentifier>{1186aba3-7b89-438c-9df2-4fab456e6be6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\README">
+      <UniqueIdentifier>{a82aafb5-949c-479a-9860-4edf43e0e7e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Device-specific files">
+      <UniqueIdentifier>{0fb43b7a-0934-4089-a9a7-3dacbe58fd14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\USER">
+      <UniqueIdentifier>{6811fa48-be0c-4b1d-ac1f-99424bb44ad1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\SYSTEM">
+      <UniqueIdentifier>{af553b08-befe-43ec-ab49-ed9e51c3dfd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\CONFIG">
+      <UniqueIdentifier>{e72d53fe-a488-4c14-8f3d-59c48d07e445}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\HARDWARE">
+      <UniqueIdentifier>{34815e4a-bc63-479f-b56b-ecc907e961de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\EXP_MODULES">
+      <UniqueIdentifier>{f470a5a7-33d6-4437-a97a-369a6c8a44fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\CORE">
+      <UniqueIdentifier>{475fd5e7-7ea4-4a34-ad20-1d37f721b0b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\FWLIB">
+      <UniqueIdentifier>{d8d7c1dc-1a7f-4a80-8a2e-9febffbf0e49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\FreeRTOS">
+      <UniqueIdentifier>{6384ab9c-ae2c-4f45-b19d-85df2a6ae512}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\USB_OTG">
+      <UniqueIdentifier>{07f21f9d-139f-46fa-989a-f6293d9d0bd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\USB_DEVICE">
+      <UniqueIdentifier>{40057f7b-93a9-4964-be7d-aecab5835537}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\USB_APP">
+      <UniqueIdentifier>{f58f992a-b470-4b4c-9470-e8240f684b5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\COMMUNICATE">
+      <UniqueIdentifier>{232e5c36-3457-4bfe-b2f4-17ac9da52f3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\FLIGHT">
+      <UniqueIdentifier>{6fd318a5-9c8b-4dc5-8897-d36810cfa794}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\COMMON">
+      <UniqueIdentifier>{c836d251-efda-4fb7-9d44-4c1b41e3181f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\README">
+      <UniqueIdentifier>{89623f1b-de87-42a2-be27-f7946b78c949}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Device-specific files">
+      <UniqueIdentifier>{2bc80579-3312-47a2-87e8-bcb8acfdf62e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VisualGDB settings">
+      <UniqueIdentifier>{859bc256-8c93-4b37-97e7-34b718790311}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\USER\main.c">
+      <Filter>Source files\USER</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\system_stm32f4xx.c">
+      <Filter>Source files\USER</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SYSTEM\delay\delay.c">
+      <Filter>Source files\SYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SYSTEM\sys\sys.c">
+      <Filter>Source files\SYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SYSTEM\usart\usart.c">
+      <Filter>Source files\SYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\CONFIG\src\config_param.c">
+      <Filter>Source files\CONFIG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\HARDWARE\src\ak8963.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\HARDWARE\src\bmp280.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\HARDWARE\src\module_detect.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\HARDWARE\src\exti.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\HARDWARE\src\iic1.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\HARDWARE\src\i2cdev.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\HARDWARE\src\i2c_drv.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\HARDWARE\src\led.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\HARDWARE\src\motors.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\HARDWARE\src\mpu6500.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\HARDWARE\src\myiic.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\HARDWARE\src\nvic.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\HARDWARE\src\uart_syslink.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\HARDWARE\src\uart1.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\HARDWARE\src\system.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\HARDWARE\src\stmflash.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\HARDWARE\src\watchdog.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\HARDWARE\src\ws2812.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\EXP_MODULES\src\ledring12.c">
+      <Filter>Source files\EXP_MODULES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\EXP_MODULES\src\module_mgt.c">
+      <Filter>Source files\EXP_MODULES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\CORE\startup_stm32f411xe.s">
+      <Filter>Source files\CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FWLIB\src\misc.c">
+      <Filter>Source files\FWLIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FWLIB\src\stm32f4xx_adc.c">
+      <Filter>Source files\FWLIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FWLIB\src\stm32f4xx_dbgmcu.c">
+      <Filter>Source files\FWLIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FWLIB\src\stm32f4xx_dma.c">
+      <Filter>Source files\FWLIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FWLIB\src\stm32f4xx_exti.c">
+      <Filter>Source files\FWLIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FWLIB\src\stm32f4xx_flash.c">
+      <Filter>Source files\FWLIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FWLIB\src\stm32f4xx_gpio.c">
+      <Filter>Source files\FWLIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FWLIB\src\stm32f4xx_i2c.c">
+      <Filter>Source files\FWLIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FWLIB\src\stm32f4xx_iwdg.c">
+      <Filter>Source files\FWLIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FWLIB\src\stm32f4xx_rcc.c">
+      <Filter>Source files\FWLIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FWLIB\src\stm32f4xx_spi.c">
+      <Filter>Source files\FWLIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FWLIB\src\stm32f4xx_tim.c">
+      <Filter>Source files\FWLIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FWLIB\src\stm32f4xx_usart.c">
+      <Filter>Source files\FWLIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FWLIB\src\stm32f4xx_syscfg.c">
+      <Filter>Source files\FWLIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FreeRTOS\list.c">
+      <Filter>Source files\FreeRTOS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FreeRTOS\queue.c">
+      <Filter>Source files\FreeRTOS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FreeRTOS\tasks.c">
+      <Filter>Source files\FreeRTOS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FreeRTOS\timers.c">
+      <Filter>Source files\FreeRTOS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FreeRTOS\portable\RVDS\ARM_CM4F\port.c">
+      <Filter>Source files\FreeRTOS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FreeRTOS\portable\MemMang\heap_4.c">
+      <Filter>Source files\FreeRTOS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USB\STM32_USB_OTG_Driver\src\usb_core.c">
+      <Filter>Source files\USB_OTG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USB\STM32_USB_OTG_Driver\src\usb_dcd.c">
+      <Filter>Source files\USB_OTG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USB\STM32_USB_OTG_Driver\src\usb_dcd_int.c">
+      <Filter>Source files\USB_OTG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USB\STM32_USB_Device_Library\Core\src\usbd_core.c">
+      <Filter>Source files\USB_DEVICE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USB\STM32_USB_Device_Library\Core\src\usbd_ioreq.c">
+      <Filter>Source files\USB_DEVICE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USB\STM32_USB_Device_Library\Core\src\usbd_req.c">
+      <Filter>Source files\USB_DEVICE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USB\STM32_USB_Device_Library\Class\cdc\src\usbd_cdc_core.c">
+      <Filter>Source files\USB_DEVICE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USB\USB_APP\src\usb_bsp.c">
+      <Filter>Source files\USB_APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USB\USB_APP\src\usbd_cdc_vcp.c">
+      <Filter>Source files\USB_APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USB\USB_APP\src\usbd_desc.c">
+      <Filter>Source files\USB_APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USB\USB_APP\src\usbd_usr.c">
+      <Filter>Source files\USB_APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\COMMUNICATE\src\atkp.c">
+      <Filter>Source files\COMMUNICATE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\COMMUNICATE\src\comm.c">
+      <Filter>Source files\COMMUNICATE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\COMMUNICATE\src\commander.c">
+      <Filter>Source files\COMMUNICATE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\COMMUNICATE\src\ledseq.c">
+      <Filter>Source files\COMMUNICATE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\COMMUNICATE\src\console.c">
+      <Filter>Source files\COMMUNICATE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\COMMUNICATE\src\pm.c">
+      <Filter>Source files\COMMUNICATE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\COMMUNICATE\src\radiolink.c">
+      <Filter>Source files\COMMUNICATE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\COMMUNICATE\src\remoter_ctrl.c">
+      <Filter>Source files\COMMUNICATE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\COMMUNICATE\src\usblink.c">
+      <Filter>Source files\COMMUNICATE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\COMMUNICATE\src\wifi_ctrl.c">
+      <Filter>Source files\COMMUNICATE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FLIGHT\src\anomal_detec.c">
+      <Filter>Source files\FLIGHT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FLIGHT\src\attitude_pid.c">
+      <Filter>Source files\FLIGHT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FLIGHT\src\flip.c">
+      <Filter>Source files\FLIGHT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FLIGHT\src\pid.c">
+      <Filter>Source files\FLIGHT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FLIGHT\src\position_pid.c">
+      <Filter>Source files\FLIGHT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FLIGHT\src\power_control.c">
+      <Filter>Source files\FLIGHT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FLIGHT\src\sensfusion6.c">
+      <Filter>Source files\FLIGHT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FLIGHT\src\sensors.c">
+      <Filter>Source files\FLIGHT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FLIGHT\src\stabilizer.c">
+      <Filter>Source files\FLIGHT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FLIGHT\src\state_control.c">
+      <Filter>Source files\FLIGHT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FLIGHT\src\state_estimator.c">
+      <Filter>Source files\FLIGHT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\COMMON\src\debug_assert.c">
+      <Filter>Source files\COMMON</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\COMMON\src\freeRTOSdebug.c">
+      <Filter>Source files\COMMON</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\COMMON\src\filter.c">
+      <Filter>Source files\COMMON</Filter>
+    </ClCompile>
+    <None Include="mcu.props">
+      <Filter>Source files\Device-specific files</Filter>
+    </None>
+    <ClInclude Include="..\..\..\..\CONFIG\interface\config.h">
+      <Filter>Header files\CONFIG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\CONFIG\interface\config_param.h">
+      <Filter>Header files\CONFIG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\CONFIG\interface\FreeRTOSConfig.h">
+      <Filter>Header files\CONFIG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\CONFIG\interface\stm32f4xx_conf.h">
+      <Filter>Header files\CONFIG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\FreeRTOS\portable\RVDS\ARM_CM4F\portmacro.h">
+      <Filter>Header files\FreeRTOS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\USB\USB_APP\interface\usbd_cdc_vcp.h">
+      <Filter>Header files\USB_APP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\USB\USB_APP\interface\usbd_conf.h">
+      <Filter>Header files\USB_APP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\USB\USB_APP\interface\usb_conf.h">
+      <Filter>Header files\USB_APP</Filter>
+    </ClInclude>
+    <None Include="..\..\..\..\readme.txt">
+      <Filter>Header files\README</Filter>
+    </None>
+    <ClInclude Include="$(BSP_ROOT)\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <None Include="MiniFlyMaster-Debug.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="MiniFlyMaster-Release.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="MCU.xml">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+  </ItemGroup>
+</Project>

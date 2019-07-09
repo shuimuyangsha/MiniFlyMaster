@@ -1,0 +1,49 @@
+VisualGDB/Debug/uart1.o: E:/VS_GDB/MiniFlyMaster/HARDWARE/src/uart1.c
+VisualGDB/Debug/uart1.o: ../../../../FreeRTOS/include/FreeRTOS.h
+VisualGDB/Debug/uart1.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\stddef.h
+VisualGDB/Debug/uart1.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\stdint.h
+VisualGDB/Debug/uart1.o: ../../../../CONFIG/interface/FreeRTOSConfig.h
+VisualGDB/Debug/uart1.o: ../../../../CONFIG/interface/config.h
+VisualGDB/Debug/uart1.o: ../../../../HARDWARE/interface/nvic.h
+VisualGDB/Debug/uart1.o: ../../../../SYSTEM/sys/sys.h
+VisualGDB/Debug/uart1.o: ../../../../USER/stm32f4xx.h
+VisualGDB/Debug/uart1.o: ../../../../CORE/core_cm4.h
+VisualGDB/Debug/uart1.o: ../../../../CORE/core_cmInstr.h
+VisualGDB/Debug/uart1.o: ../../../../CORE/core_cmFunc.h
+VisualGDB/Debug/uart1.o: ../../../../CORE/core_cm4_simd.h
+VisualGDB/Debug/uart1.o: ../../../../USER/system_stm32f4xx.h
+VisualGDB/Debug/uart1.o: ../../../../USER/stm32f4xx_conf.h
+VisualGDB/Debug/uart1.o: ../../../../FWLIB/inc/stm32f4xx_adc.h
+VisualGDB/Debug/uart1.o: ../../../../USER/stm32f4xx.h
+VisualGDB/Debug/uart1.o: ../../../../FWLIB/inc/stm32f4xx_crc.h
+VisualGDB/Debug/uart1.o: ../../../../FWLIB/inc/stm32f4xx_dbgmcu.h
+VisualGDB/Debug/uart1.o: ../../../../FWLIB/inc/stm32f4xx_dma.h
+VisualGDB/Debug/uart1.o: ../../../../FWLIB/inc/stm32f4xx_exti.h
+VisualGDB/Debug/uart1.o: ../../../../FWLIB/inc/stm32f4xx_flash.h
+VisualGDB/Debug/uart1.o: ../../../../FWLIB/inc/stm32f4xx_gpio.h
+VisualGDB/Debug/uart1.o: ../../../../FWLIB/inc/stm32f4xx_i2c.h
+VisualGDB/Debug/uart1.o: ../../../../FWLIB/inc/stm32f4xx_iwdg.h
+VisualGDB/Debug/uart1.o: ../../../../FWLIB/inc/stm32f4xx_pwr.h
+VisualGDB/Debug/uart1.o: ../../../../FWLIB/inc/stm32f4xx_rcc.h
+VisualGDB/Debug/uart1.o: ../../../../FWLIB/inc/stm32f4xx_rtc.h
+VisualGDB/Debug/uart1.o: ../../../../FWLIB/inc/stm32f4xx_sdio.h
+VisualGDB/Debug/uart1.o: ../../../../FWLIB/inc/stm32f4xx_spi.h
+VisualGDB/Debug/uart1.o: ../../../../FWLIB/inc/stm32f4xx_syscfg.h
+VisualGDB/Debug/uart1.o: ../../../../FWLIB/inc/stm32f4xx_tim.h
+VisualGDB/Debug/uart1.o: ../../../../FWLIB/inc/stm32f4xx_usart.h
+VisualGDB/Debug/uart1.o: ../../../../FWLIB/inc/stm32f4xx_wwdg.h
+VisualGDB/Debug/uart1.o: ../../../../FWLIB/inc/misc.h
+VisualGDB/Debug/uart1.o: ../../../../FWLIB/inc/stm32f4xx_flash_ramfunc.h
+VisualGDB/Debug/uart1.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\stdio.h
+VisualGDB/Debug/uart1.o: ../../../../COMMON/interface/debug_assert.h
+VisualGDB/Debug/uart1.o: ../../../../COMMUNICATE/interface/console.h
+VisualGDB/Debug/uart1.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\stdbool.h
+VisualGDB/Debug/uart1.o: ../../../../FreeRTOS/include/projdefs.h
+VisualGDB/Debug/uart1.o: ../../../../FreeRTOS/include/portable.h
+VisualGDB/Debug/uart1.o: ../../../../FreeRTOS/include/deprecated_definitions.h
+VisualGDB/Debug/uart1.o: ../../../../FreeRTOS/portable/RVDS/ARM_CM4F/portmacro.h
+VisualGDB/Debug/uart1.o: ../../../../FreeRTOS/include/mpu_wrappers.h
+VisualGDB/Debug/uart1.o: ../../../../FreeRTOS/include/queue.h
+VisualGDB/Debug/uart1.o: ../../../../FreeRTOS/include/semphr.h
+VisualGDB/Debug/uart1.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\string.h
+VisualGDB/Debug/uart1.o: ../../../../HARDWARE/interface/uart1.h

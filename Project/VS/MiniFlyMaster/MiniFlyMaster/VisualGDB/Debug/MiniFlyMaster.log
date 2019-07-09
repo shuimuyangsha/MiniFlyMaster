@@ -1,0 +1,92 @@
+﻿  main.c
+  system_stm32f4xx.c
+  delay.c
+  sys.c
+  usart.c
+  config_param.c
+  ak8963.c
+  bmp280.c
+  module_detect.c
+  exti.c
+  iic1.c
+  i2cdev.c
+  i2c_drv.c
+  led.c
+  motors.c
+  mpu6500.c
+  myiic.c
+  nvic.c
+  uart_syslink.c
+  uart1.c
+  system.c
+  stmflash.c
+  watchdog.c
+  ws2812.c
+  ledring12.c
+  module_mgt.c
+  misc.c
+  stm32f4xx_adc.c
+  stm32f4xx_dbgmcu.c
+  stm32f4xx_dma.c
+  stm32f4xx_exti.c
+  stm32f4xx_flash.c
+  stm32f4xx_gpio.c
+  stm32f4xx_i2c.c
+  stm32f4xx_iwdg.c
+  stm32f4xx_rcc.c
+  stm32f4xx_spi.c
+  stm32f4xx_tim.c
+  stm32f4xx_usart.c
+  stm32f4xx_syscfg.c
+  list.c
+  queue.c
+  tasks.c
+  timers.c
+  port.c
+  heap_4.c
+  usb_core.c
+  usb_dcd.c
+  usb_dcd_int.c
+  usbd_core.c
+  usbd_ioreq.c
+  usbd_req.c
+  usbd_cdc_core.c
+  usb_bsp.c
+  usbd_cdc_vcp.c
+  usbd_desc.c
+  usbd_usr.c
+  atkp.c
+  comm.c
+  commander.c
+  ledseq.c
+  console.c
+E:\VS_GDB\MiniFlyMaster\COMMUNICATE\src\ledseq.c(165): warning :   #767-D: conversion from pointer to smaller integer
+    	led_e led = (led_e)pvTimerGetTimerID(xTimer);
+    	            ^
+  pm.c
+  radiolink.c
+  E:/VS_GDB/MiniFlyMaster/COMMUNICATE/src/ledseq.c: 1 warning, 0 errors
+  remoter_ctrl.c
+  usblink.c
+  wifi_ctrl.c
+  anomal_detec.c
+  attitude_pid.c
+  flip.c
+  pid.c
+  position_pid.c
+  power_control.c
+  sensfusion6.c
+  sensors.c
+  stabilizer.c
+  state_control.c
+  state_estimator.c
+  debug_assert.c
+  freeRTOSdebug.c
+  filter.c
+  startup_stm32f411xe.s
+  Linking ../VisualGDB/Debug/MiniFlyMaster...
+  Program Size: Code=78520 RO-data=1524 RW-data=1468 ZI-data=43780  
+  Map file saved to file://E:\VS_GDB\MiniFlyMaster\Project\VS\MiniFlyMaster\VisualGDB\Debug\MiniFlyMaster.lst
+  ------------------- Memory utilization report -------------------
+  Used IROM1: 78KB out of 512KB (15%)
+  Used IRAM1: 43KB out of 128KB (33%)

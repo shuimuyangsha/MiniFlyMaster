@@ -207,6 +207,7 @@ static uint16_t VCP_DataTx (uint8_t data)
   */
 static uint16_t VCP_DataRx (uint8_t* Buf, uint32_t Len)
 {
+	int i = 0;
 //  uint32_t i;
 //  if(usb_rx_ptr_in+1 != usb_rx_ptr_out)
 //  {
@@ -219,7 +220,7 @@ static uint16_t VCP_DataRx (uint8_t* Buf, uint32_t Len)
 //	  } 
 //  }
 	portBASE_TYPE xHigherPriorityTaskWoken = pdFALSE;
-	for(int i=0; i<Len; i++)
+	for(i=0; i<Len; i++)
 	{
 		uint8_t data = Buf[i];
 		xQueueSendFromISR(usbDataDelivery, &data, &xHigherPriorityTaskWoken);
@@ -251,7 +252,8 @@ bool usbGetDataWithTimout(uint8_t *c)
 
 void usbsendData(u8* data, u16 length)
 {
-	for(int i=0; i<length; i++)
+	int i = 0;
+	for(i=0; i<length; i++)
 	{
 		VCP_DataTx(data[i]);
 	}

@@ -1,0 +1,54 @@
+VisualGDB/Debug/module_mgt.o: E:/VS_GDB/MiniFlyMaster/EXP_MODULES/src/module_mgt.c
+VisualGDB/Debug/module_mgt.o: ../../../../EXP_MODULES/interface/module_mgt.h
+VisualGDB/Debug/module_mgt.o: ../../../../SYSTEM/sys/sys.h
+VisualGDB/Debug/module_mgt.o: ../../../../USER/stm32f4xx.h
+VisualGDB/Debug/module_mgt.o: ../../../../CORE/core_cm4.h
+VisualGDB/Debug/module_mgt.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\stdint.h
+VisualGDB/Debug/module_mgt.o: ../../../../CORE/core_cmInstr.h
+VisualGDB/Debug/module_mgt.o: ../../../../CORE/core_cmFunc.h
+VisualGDB/Debug/module_mgt.o: ../../../../CORE/core_cm4_simd.h
+VisualGDB/Debug/module_mgt.o: ../../../../USER/system_stm32f4xx.h
+VisualGDB/Debug/module_mgt.o: ../../../../USER/stm32f4xx_conf.h
+VisualGDB/Debug/module_mgt.o: ../../../../FWLIB/inc/stm32f4xx_adc.h
+VisualGDB/Debug/module_mgt.o: ../../../../USER/stm32f4xx.h
+VisualGDB/Debug/module_mgt.o: ../../../../FWLIB/inc/stm32f4xx_crc.h
+VisualGDB/Debug/module_mgt.o: ../../../../FWLIB/inc/stm32f4xx_dbgmcu.h
+VisualGDB/Debug/module_mgt.o: ../../../../FWLIB/inc/stm32f4xx_dma.h
+VisualGDB/Debug/module_mgt.o: ../../../../FWLIB/inc/stm32f4xx_exti.h
+VisualGDB/Debug/module_mgt.o: ../../../../FWLIB/inc/stm32f4xx_flash.h
+VisualGDB/Debug/module_mgt.o: ../../../../FWLIB/inc/stm32f4xx_gpio.h
+VisualGDB/Debug/module_mgt.o: ../../../../FWLIB/inc/stm32f4xx_i2c.h
+VisualGDB/Debug/module_mgt.o: ../../../../FWLIB/inc/stm32f4xx_iwdg.h
+VisualGDB/Debug/module_mgt.o: ../../../../FWLIB/inc/stm32f4xx_pwr.h
+VisualGDB/Debug/module_mgt.o: ../../../../FWLIB/inc/stm32f4xx_rcc.h
+VisualGDB/Debug/module_mgt.o: ../../../../FWLIB/inc/stm32f4xx_rtc.h
+VisualGDB/Debug/module_mgt.o: ../../../../FWLIB/inc/stm32f4xx_sdio.h
+VisualGDB/Debug/module_mgt.o: ../../../../FWLIB/inc/stm32f4xx_spi.h
+VisualGDB/Debug/module_mgt.o: ../../../../FWLIB/inc/stm32f4xx_syscfg.h
+VisualGDB/Debug/module_mgt.o: ../../../../FWLIB/inc/stm32f4xx_tim.h
+VisualGDB/Debug/module_mgt.o: ../../../../FWLIB/inc/stm32f4xx_usart.h
+VisualGDB/Debug/module_mgt.o: ../../../../FWLIB/inc/stm32f4xx_wwdg.h
+VisualGDB/Debug/module_mgt.o: ../../../../FWLIB/inc/misc.h
+VisualGDB/Debug/module_mgt.o: ../../../../FWLIB/inc/stm32f4xx_flash_ramfunc.h
+VisualGDB/Debug/module_mgt.o: ../../../../HARDWARE/interface/module_detect.h
+VisualGDB/Debug/module_mgt.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\stdbool.h
+VisualGDB/Debug/module_mgt.o: ../../../../EXP_MODULES/interface/ledring12.h
+VisualGDB/Debug/module_mgt.o: ../../../../COMMUNICATE/interface/wifi_ctrl.h
+VisualGDB/Debug/module_mgt.o: ../../../../CONFIG/interface/config.h
+VisualGDB/Debug/module_mgt.o: ../../../../HARDWARE/interface/nvic.h
+VisualGDB/Debug/module_mgt.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\stdio.h
+VisualGDB/Debug/module_mgt.o: ../../../../FLIGHT/interface/stabilizer_types.h
+VisualGDB/Debug/module_mgt.o: ../../../../FLIGHT/interface/sensors_types.h
+VisualGDB/Debug/module_mgt.o: ../../../../FreeRTOS/include/FreeRTOS.h
+VisualGDB/Debug/module_mgt.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\stddef.h
+VisualGDB/Debug/module_mgt.o: ../../../../CONFIG/interface/FreeRTOSConfig.h
+VisualGDB/Debug/module_mgt.o: ../../../../COMMON/interface/debug_assert.h
+VisualGDB/Debug/module_mgt.o: ../../../../COMMUNICATE/interface/console.h
+VisualGDB/Debug/module_mgt.o: ../../../../FreeRTOS/include/projdefs.h
+VisualGDB/Debug/module_mgt.o: ../../../../FreeRTOS/include/portable.h
+VisualGDB/Debug/module_mgt.o: ../../../../FreeRTOS/include/deprecated_definitions.h
+VisualGDB/Debug/module_mgt.o: ../../../../FreeRTOS/portable/RVDS/ARM_CM4F/portmacro.h
+VisualGDB/Debug/module_mgt.o: ../../../../FreeRTOS/include/mpu_wrappers.h
+VisualGDB/Debug/module_mgt.o: ../../../../FreeRTOS/include/task.h
+VisualGDB/Debug/module_mgt.o: ../../../../FreeRTOS/include/list.h
+VisualGDB/Debug/module_mgt.o: ../../../../FreeRTOS/include/timers.h

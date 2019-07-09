@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|VisualGDB">
+      <Configuration>Debug</Configuration>
+      <Platform>VisualGDB</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|VisualGDB">
+      <Configuration>Release</Configuration>
+      <Platform>VisualGDB</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{358BFE73-2AAD-4E3C-84C2-80A75C6E0C52}</ProjectGuid>
+    <BSP_ID>KEIL:Keil/STM32F4xx_DFP</BSP_ID>
+    <BSP_VERSION>2.6.0</BSP_VERSION>
+    <InPlaceBSPSubdir />
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Debug|VisualGDB'">
+    <MCUPropertyListFile>$(ProjectDir)mcu.props</MCUPropertyListFile>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Release|VisualGDB'">
+    <MCUPropertyListFile>$(ProjectDir)mcu.props</MCUPropertyListFile>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|VisualGDB'">
+    <GNUConfigurationType>Debug</GNUConfigurationType>
+    <ToolchainID>com.sysprogs.toolchains.nongnu.armcc</ToolchainID>
+    <ToolchainVersion>5.x//r1</ToolchainVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|VisualGDB'">
+    <ToolchainID>com.sysprogs.toolchains.nongnu.armcc</ToolchainID>
+    <ToolchainVersion>5.x//r1</ToolchainVersion>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|VisualGDB'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\..\..\CORE;..\..\..\..\SYSTEM\delay;..\..\..\..\SYSTEM\sys;..\..\..\..\SYSTEM\usart;..\..\..\..\USER;..\..\..\..\FWLIB\inc;..\..\..\..\CONFIG\interface;..\..\..\..\HARDWARE\interface;..\..\..\..\FreeRTOS\include;..\..\..\..\FreeRTOS\portable\RVDS\ARM_CM4F;..\..\..\..\USB\STM32_USB_Device_Library\Core\inc;..\..\..\..\USB\STM32_USB_Device_Library\Class\cdc\inc;..\..\..\..\USB\STM32_USB_OTG_Driver\inc;..\..\..\..\USB\USB_APP\interface;..\..\..\..\FLIGHT\interface;..\..\..\..\COMMON\interface;..\..\..\..\COMMUNICATE\interface;..\..\..\..\EXP_MODULES\interface;%(ClCompile.AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>STM32F411xE;ARM_MATH_CM4;USE_STDPERIPH_DRIVER;USE_USB_OTG_FS;%(ClCompile.PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions />
+      <CLanguageStandard />
+      <CPPLanguageStandard />
+    </ClCompile>
+    <Link>
+      <AdditionalLinkerInputs>%(Link.AdditionalLinkerInputs)</AdditionalLinkerInputs>
+      <AdditionalOptions />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|VisualGDB'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\..\..\CORE;..\..\..\..\SYSTEM\delay;..\..\..\..\SYSTEM\sys;..\..\..\..\SYSTEM\usart;..\..\..\..\USER;..\..\..\..\FWLIB\inc;..\..\..\..\CONFIG\interface;..\..\..\..\HARDWARE\interface;..\..\..\..\FreeRTOS\include;..\..\..\..\FreeRTOS\portable\RVDS\ARM_CM4F;..\..\..\..\USB\STM32_USB_Device_Library\Core\inc;..\..\..\..\USB\STM32_USB_Device_Library\Class\cdc\inc;..\..\..\..\USB\STM32_USB_OTG_Driver\inc;..\..\..\..\USB\USB_APP\interface;..\..\..\..\FLIGHT\interface;..\..\..\..\COMMON\interface;..\..\..\..\COMMUNICATE\interface;..\..\..\..\EXP_MODULES\interface;%(ClCompile.AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>STM32F411xE;ARM_MATH_CM4;USE_STDPERIPH_DRIVER;USE_USB_OTG_FS;%(ClCompile.PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions />
+      <CLanguageStandard />
+      <CPPLanguageStandard />
+    </ClCompile>
+    <Link>
+      <AdditionalLinkerInputs>%(Link.AdditionalLinkerInputs)</AdditionalLinkerInputs>
+      <AdditionalOptions />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\USER\main.c" />
+    <ClCompile Include="..\..\..\..\USER\system_stm32f4xx.c" />
+    <ClCompile Include="..\..\..\..\SYSTEM\delay\delay.c" />
+    <ClCompile Include="..\..\..\..\SYSTEM\sys\sys.c" />
+    <ClCompile Include="..\..\..\..\SYSTEM\usart\usart.c" />
+    <ClCompile Include="..\..\..\..\CONFIG\src\config_param.c" />
+    <ClCompile Include="..\..\..\..\HARDWARE\src\ak8963.c" />
+    <ClCompile Include="..\..\..\..\HARDWARE\src\bmp280.c" />
+    <ClCompile Include="..\..\..\..\HARDWARE\src\module_detect.c" />
+    <ClCompile Include="..\..\..\..\HARDWARE\src\exti.c" />
+    <ClCompile Include="..\..\..\..\HARDWARE\src\iic1.c" />
+    <ClCompile Include="..\..\..\..\HARDWARE\src\i2cdev.c" />
+    <ClCompile Include="..\..\..\..\HARDWARE\src\i2c_drv.c" />
+    <ClCompile Include="..\..\..\..\HARDWARE\src\led.c" />
+    <ClCompile Include="..\..\..\..\HARDWARE\src\motors.c" />
+    <ClCompile Include="..\..\..\..\HARDWARE\src\mpu6500.c" />
+    <ClCompile Include="..\..\..\..\HARDWARE\src\myiic.c" />
+    <ClCompile Include="..\..\..\..\HARDWARE\src\nvic.c" />
+    <ClCompile Include="..\..\..\..\HARDWARE\src\uart_syslink.c" />
+    <ClCompile Include="..\..\..\..\HARDWARE\src\uart1.c" />
+    <ClCompile Include="..\..\..\..\HARDWARE\src\system.c" />
+    <ClCompile Include="..\..\..\..\HARDWARE\src\stmflash.c" />
+    <ClCompile Include="..\..\..\..\HARDWARE\src\watchdog.c" />
+    <ClCompile Include="..\..\..\..\HARDWARE\src\ws2812.c" />
+    <ClCompile Include="..\..\..\..\EXP_MODULES\src\ledring12.c" />
+    <ClCompile Include="..\..\..\..\EXP_MODULES\src\module_mgt.c" />
+    <ClCompile Include="..\..\..\..\CORE\startup_stm32f411xe.s" />
+    <ClCompile Include="..\..\..\..\FWLIB\src\misc.c" />
+    <ClCompile Include="..\..\..\..\FWLIB\src\stm32f4xx_adc.c" />
+    <ClCompile Include="..\..\..\..\FWLIB\src\stm32f4xx_dbgmcu.c" />
+    <ClCompile Include="..\..\..\..\FWLIB\src\stm32f4xx_dma.c" />
+    <ClCompile Include="..\..\..\..\FWLIB\src\stm32f4xx_exti.c" />
+    <ClCompile Include="..\..\..\..\FWLIB\src\stm32f4xx_flash.c" />
+    <ClCompile Include="..\..\..\..\FWLIB\src\stm32f4xx_gpio.c" />
+    <ClCompile Include="..\..\..\..\FWLIB\src\stm32f4xx_i2c.c" />
+    <ClCompile Include="..\..\..\..\FWLIB\src\stm32f4xx_iwdg.c" />
+    <ClCompile Include="..\..\..\..\FWLIB\src\stm32f4xx_rcc.c" />
+    <ClCompile Include="..\..\..\..\FWLIB\src\stm32f4xx_spi.c" />
+    <ClCompile Include="..\..\..\..\FWLIB\src\stm32f4xx_tim.c" />
+    <ClCompile Include="..\..\..\..\FWLIB\src\stm32f4xx_usart.c" />
+    <ClCompile Include="..\..\..\..\FWLIB\src\stm32f4xx_syscfg.c" />
+    <ClCompile Include="..\..\..\..\FreeRTOS\list.c" />
+    <ClCompile Include="..\..\..\..\FreeRTOS\queue.c" />
+    <ClCompile Include="..\..\..\..\FreeRTOS\tasks.c" />
+    <ClCompile Include="..\..\..\..\FreeRTOS\timers.c" />
+    <ClCompile Include="..\..\..\..\FreeRTOS\portable\RVDS\ARM_CM4F\port.c" />
+    <ClCompile Include="..\..\..\..\FreeRTOS\portable\MemMang\heap_4.c" />
+    <ClCompile Include="..\..\..\..\USB\STM32_USB_OTG_Driver\src\usb_core.c" />
+    <ClCompile Include="..\..\..\..\USB\STM32_USB_OTG_Driver\src\usb_dcd.c" />
+    <ClCompile Include="..\..\..\..\USB\STM32_USB_OTG_Driver\src\usb_dcd_int.c" />
+    <ClCompile Include="..\..\..\..\USB\STM32_USB_Device_Library\Core\src\usbd_core.c" />
+    <ClCompile Include="..\..\..\..\USB\STM32_USB_Device_Library\Core\src\usbd_ioreq.c" />
+    <ClCompile Include="..\..\..\..\USB\STM32_USB_Device_Library\Core\src\usbd_req.c" />
+    <ClCompile Include="..\..\..\..\USB\STM32_USB_Device_Library\Class\cdc\src\usbd_cdc_core.c" />
+    <ClCompile Include="..\..\..\..\USB\USB_APP\src\usb_bsp.c" />
+    <ClCompile Include="..\..\..\..\USB\USB_APP\src\usbd_cdc_vcp.c" />
+    <ClCompile Include="..\..\..\..\USB\USB_APP\src\usbd_desc.c" />
+    <ClCompile Include="..\..\..\..\USB\USB_APP\src\usbd_usr.c" />
+    <ClCompile Include="..\..\..\..\COMMUNICATE\src\atkp.c" />
+    <ClCompile Include="..\..\..\..\COMMUNICATE\src\comm.c" />
+    <ClCompile Include="..\..\..\..\COMMUNICATE\src\commander.c" />
+    <ClCompile Include="..\..\..\..\COMMUNICATE\src\ledseq.c" />
+    <ClCompile Include="..\..\..\..\COMMUNICATE\src\console.c" />
+    <ClCompile Include="..\..\..\..\COMMUNICATE\src\pm.c" />
+    <ClCompile Include="..\..\..\..\COMMUNICATE\src\radiolink.c" />
+    <ClCompile Include="..\..\..\..\COMMUNICATE\src\remoter_ctrl.c" />
+    <ClCompile Include="..\..\..\..\COMMUNICATE\src\usblink.c" />
+    <ClCompile Include="..\..\..\..\COMMUNICATE\src\wifi_ctrl.c" />
+    <ClCompile Include="..\..\..\..\FLIGHT\src\anomal_detec.c" />
+    <ClCompile Include="..\..\..\..\FLIGHT\src\attitude_pid.c" />
+    <ClCompile Include="..\..\..\..\FLIGHT\src\flip.c" />
+    <ClCompile Include="..\..\..\..\FLIGHT\src\pid.c" />
+    <ClCompile Include="..\..\..\..\FLIGHT\src\position_pid.c" />
+    <ClCompile Include="..\..\..\..\FLIGHT\src\power_control.c" />
+    <ClCompile Include="..\..\..\..\FLIGHT\src\sensfusion6.c" />
+    <ClCompile Include="..\..\..\..\FLIGHT\src\sensors.c" />
+    <ClCompile Include="..\..\..\..\FLIGHT\src\stabilizer.c" />
+    <ClCompile Include="..\..\..\..\FLIGHT\src\state_control.c" />
+    <ClCompile Include="..\..\..\..\FLIGHT\src\state_estimator.c" />
+    <ClCompile Include="..\..\..\..\COMMON\src\debug_assert.c" />
+    <ClCompile Include="..\..\..\..\COMMON\src\freeRTOSdebug.c" />
+    <ClCompile Include="..\..\..\..\COMMON\src\filter.c" />
+    <None Include="mcu.props" />
+    <ClInclude Include="..\..\..\..\CONFIG\interface\config.h" />
+    <ClInclude Include="..\..\..\..\CONFIG\interface\config_param.h" />
+    <ClInclude Include="..\..\..\..\CONFIG\interface\FreeRTOSConfig.h" />
+    <ClInclude Include="..\..\..\..\CONFIG\interface\stm32f4xx_conf.h" />
+    <ClInclude Include="..\..\..\..\FreeRTOS\portable\RVDS\ARM_CM4F\portmacro.h" />
+    <ClInclude Include="..\..\..\..\USB\USB_APP\interface\usbd_cdc_vcp.h" />
+    <ClInclude Include="..\..\..\..\USB\USB_APP\interface\usbd_conf.h" />
+    <ClInclude Include="..\..\..\..\USB\USB_APP\interface\usb_conf.h" />
+    <None Include="..\..\..\..\readme.txt" />
+    <ClInclude Include="$(BSP_ROOT)\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h" />
+    <None Include="MiniFlyMaster-Debug.vgdbsettings" />
+    <None Include="MiniFlyMaster-Release.vgdbsettings" />
+    <None Include="MCU.xml" />
+  </ItemGroup>
+</Project>

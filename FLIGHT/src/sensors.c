@@ -139,6 +139,7 @@ static void sensorsInterruptInit(void)
 /* 传感器器件初始化 */
 void sensorsDeviceInit(void)
 {
+	u8 i = 0;
 	i2cdevInit(I2C1_DEV);
 	mpu6500Init(I2C1_DEV);	
 	
@@ -171,7 +172,7 @@ void sensorsDeviceInit(void)
 	mpu6500SetRate(0);// 设置采样速率: 1000 / (1 + 0) = 1000Hz
 	mpu6500SetDLPFMode(MPU6500_DLPF_BW_98);// 设置陀螺数字低通滤波
 	
-	for (u8 i = 0; i < 3; i++)// 初始化加速计和陀螺二阶低通滤波
+	for (i = 0; i < 3; i++)// 初始化加速计和陀螺二阶低通滤波
 	{
 		lpf2pInit(&gyroLpf[i], 1000, GYRO_LPF_CUTOFF_FREQ);
 		lpf2pInit(&accLpf[i],  1000, ACCEL_LPF_CUTOFF_FREQ);
@@ -538,7 +539,8 @@ void __attribute__((used)) EXTI4_Callback(void)
 /*二阶低通滤波*/
 static void applyAxis3fLpf(lpf2pData *data, Axis3f* in)
 {
-	for (u8 i = 0; i < 3; i++) 
+	u8 i = 0;
+	for (i = 0; i < 3; i++) 
 	{
 		in->axis[i] = lpf2pApply(&data[i], in->axis[i]);
 	}
