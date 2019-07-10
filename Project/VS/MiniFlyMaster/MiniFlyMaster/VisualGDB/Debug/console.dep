@@ -1,10 +1,10 @@
-VisualGDB/Debug/console.o: E:/VS_GDB/MiniFlyMaster/COMMUNICATE/src/console.c
-VisualGDB/Debug/console.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\stdbool.h
+VisualGDB/Debug/console.o: E:/VS_GDB/testF411/MiniFlyMaster/COMMUNICATE/src/console.c
+VisualGDB/Debug/console.o: G:\MDK\ARM\ARMCC\bin\..\include\stdbool.h
 VisualGDB/Debug/console.o: ../../../../COMMUNICATE/interface/console.h
 VisualGDB/Debug/console.o: ../../../../SYSTEM/sys/sys.h
 VisualGDB/Debug/console.o: ../../../../USER/stm32f4xx.h
 VisualGDB/Debug/console.o: ../../../../CORE/core_cm4.h
-VisualGDB/Debug/console.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\stdint.h
+VisualGDB/Debug/console.o: G:\MDK\ARM\ARMCC\bin\..\include\stdint.h
 VisualGDB/Debug/console.o: ../../../../CORE/core_cmInstr.h
 VisualGDB/Debug/console.o: ../../../../CORE/core_cmFunc.h
 VisualGDB/Debug/console.o: ../../../../CORE/core_cm4_simd.h
@@ -35,11 +35,11 @@ VisualGDB/Debug/console.o: ../../../../COMMUNICATE/interface/atkp.h
 VisualGDB/Debug/console.o: ../../../../COMMUNICATE/interface/radiolink.h
 VisualGDB/Debug/console.o: ../../../../COMMUNICATE/interface/usblink.h
 VisualGDB/Debug/console.o: ../../../../FreeRTOS/include/FreeRTOS.h
-VisualGDB/Debug/console.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\stddef.h
+VisualGDB/Debug/console.o: G:\MDK\ARM\ARMCC\bin\..\include\stddef.h
 VisualGDB/Debug/console.o: ../../../../CONFIG/interface/FreeRTOSConfig.h
 VisualGDB/Debug/console.o: ../../../../CONFIG/interface/config.h
 VisualGDB/Debug/console.o: ../../../../HARDWARE/interface/nvic.h
-VisualGDB/Debug/console.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\stdio.h
+VisualGDB/Debug/console.o: G:\MDK\ARM\ARMCC\bin\..\include\stdio.h
 VisualGDB/Debug/console.o: ../../../../COMMON/interface/debug_assert.h
 VisualGDB/Debug/console.o: ../../../../FreeRTOS/include/projdefs.h
 VisualGDB/Debug/console.o: ../../../../FreeRTOS/include/portable.h

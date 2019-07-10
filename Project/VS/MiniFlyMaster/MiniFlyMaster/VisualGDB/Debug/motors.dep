@@ -1,8 +1,8 @@
-VisualGDB/Debug/motors.o: E:/VS_GDB/MiniFlyMaster/HARDWARE/src/motors.c
+VisualGDB/Debug/motors.o: E:/VS_GDB/testF411/MiniFlyMaster/HARDWARE/src/motors.c
 VisualGDB/Debug/motors.o: ../../../../SYSTEM/sys/sys.h
 VisualGDB/Debug/motors.o: ../../../../USER/stm32f4xx.h
 VisualGDB/Debug/motors.o: ../../../../CORE/core_cm4.h
-VisualGDB/Debug/motors.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\stdint.h
+VisualGDB/Debug/motors.o: G:\MDK\ARM\ARMCC\bin\..\include\stdint.h
 VisualGDB/Debug/motors.o: ../../../../CORE/core_cmInstr.h
 VisualGDB/Debug/motors.o: ../../../../CORE/core_cmFunc.h
 VisualGDB/Debug/motors.o: ../../../../CORE/core_cm4_simd.h
@@ -31,9 +31,9 @@ VisualGDB/Debug/motors.o: ../../../../FWLIB/inc/misc.h
 VisualGDB/Debug/motors.o: ../../../../FWLIB/inc/stm32f4xx_flash_ramfunc.h
 VisualGDB/Debug/motors.o: ../../../../SYSTEM/delay/delay.h
 VisualGDB/Debug/motors.o: ../../../../HARDWARE/interface/motors.h
-VisualGDB/Debug/motors.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\stdbool.h
+VisualGDB/Debug/motors.o: G:\MDK\ARM\ARMCC\bin\..\include\stdbool.h
 VisualGDB/Debug/motors.o: ../../../../CONFIG/interface/config.h
 VisualGDB/Debug/motors.o: ../../../../HARDWARE/interface/nvic.h
-VisualGDB/Debug/motors.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\stdio.h
+VisualGDB/Debug/motors.o: G:\MDK\ARM\ARMCC\bin\..\include\stdio.h
 VisualGDB/Debug/motors.o: ../../../../COMMUNICATE/interface/pm.h
 VisualGDB/Debug/motors.o: ../../../../COMMUNICATE/interface/atkp.h

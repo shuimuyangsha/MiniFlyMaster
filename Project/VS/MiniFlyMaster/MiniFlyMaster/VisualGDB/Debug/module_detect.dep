@@ -1,9 +1,9 @@
-VisualGDB/Debug/module_detect.o: E:/VS_GDB/MiniFlyMaster/HARDWARE/src/module_detect.c
+VisualGDB/Debug/module_detect.o: E:/VS_GDB/testF411/MiniFlyMaster/HARDWARE/src/module_detect.c
 VisualGDB/Debug/module_detect.o: ../../../../HARDWARE/interface/module_detect.h
 VisualGDB/Debug/module_detect.o: ../../../../SYSTEM/sys/sys.h
 VisualGDB/Debug/module_detect.o: ../../../../USER/stm32f4xx.h
 VisualGDB/Debug/module_detect.o: ../../../../CORE/core_cm4.h
-VisualGDB/Debug/module_detect.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\stdint.h
+VisualGDB/Debug/module_detect.o: G:\MDK\ARM\ARMCC\bin\..\include\stdint.h
 VisualGDB/Debug/module_detect.o: ../../../../CORE/core_cmInstr.h
 VisualGDB/Debug/module_detect.o: ../../../../CORE/core_cmFunc.h
 VisualGDB/Debug/module_detect.o: ../../../../CORE/core_cm4_simd.h
@@ -30,13 +30,13 @@ VisualGDB/Debug/module_detect.o: ../../../../FWLIB/inc/stm32f4xx_usart.h
 VisualGDB/Debug/module_detect.o: ../../../../FWLIB/inc/stm32f4xx_wwdg.h
 VisualGDB/Debug/module_detect.o: ../../../../FWLIB/inc/misc.h
 VisualGDB/Debug/module_detect.o: ../../../../FWLIB/inc/stm32f4xx_flash_ramfunc.h
-VisualGDB/Debug/module_detect.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\stdbool.h
+VisualGDB/Debug/module_detect.o: G:\MDK\ARM\ARMCC\bin\..\include\stdbool.h
 VisualGDB/Debug/module_detect.o: ../../../../FreeRTOS/include/FreeRTOS.h
-VisualGDB/Debug/module_detect.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\stddef.h
+VisualGDB/Debug/module_detect.o: G:\MDK\ARM\ARMCC\bin\..\include\stddef.h
 VisualGDB/Debug/module_detect.o: ../../../../CONFIG/interface/FreeRTOSConfig.h
 VisualGDB/Debug/module_detect.o: ../../../../CONFIG/interface/config.h
 VisualGDB/Debug/module_detect.o: ../../../../HARDWARE/interface/nvic.h
-VisualGDB/Debug/module_detect.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\stdio.h
+VisualGDB/Debug/module_detect.o: G:\MDK\ARM\ARMCC\bin\..\include\stdio.h
 VisualGDB/Debug/module_detect.o: ../../../../COMMON/interface/debug_assert.h
 VisualGDB/Debug/module_detect.o: ../../../../COMMUNICATE/interface/console.h
 VisualGDB/Debug/module_detect.o: ../../../../FreeRTOS/include/projdefs.h

@@ -1,9 +1,9 @@
-VisualGDB/Debug/tasks.o: E:/VS_GDB/MiniFlyMaster/FreeRTOS/tasks.c
-VisualGDB/Debug/tasks.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\stdlib.h
-VisualGDB/Debug/tasks.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\string.h
+VisualGDB/Debug/tasks.o: E:/VS_GDB/testF411/MiniFlyMaster/FreeRTOS/tasks.c
+VisualGDB/Debug/tasks.o: G:\MDK\ARM\ARMCC\bin\..\include\stdlib.h
+VisualGDB/Debug/tasks.o: G:\MDK\ARM\ARMCC\bin\..\include\string.h
 VisualGDB/Debug/tasks.o: ../../../../FreeRTOS/include/FreeRTOS.h
-VisualGDB/Debug/tasks.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\stddef.h
-VisualGDB/Debug/tasks.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\stdint.h
+VisualGDB/Debug/tasks.o: G:\MDK\ARM\ARMCC\bin\..\include\stddef.h
+VisualGDB/Debug/tasks.o: G:\MDK\ARM\ARMCC\bin\..\include\stdint.h
 VisualGDB/Debug/tasks.o: ../../../../CONFIG/interface/FreeRTOSConfig.h
 VisualGDB/Debug/tasks.o: ../../../../CONFIG/interface/config.h
 VisualGDB/Debug/tasks.o: ../../../../HARDWARE/interface/nvic.h
@@ -36,10 +36,10 @@ VisualGDB/Debug/tasks.o: ../../../../FWLIB/inc/stm32f4xx_usart.h
 VisualGDB/Debug/tasks.o: ../../../../FWLIB/inc/stm32f4xx_wwdg.h
 VisualGDB/Debug/tasks.o: ../../../../FWLIB/inc/misc.h
 VisualGDB/Debug/tasks.o: ../../../../FWLIB/inc/stm32f4xx_flash_ramfunc.h
-VisualGDB/Debug/tasks.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\stdio.h
+VisualGDB/Debug/tasks.o: G:\MDK\ARM\ARMCC\bin\..\include\stdio.h
 VisualGDB/Debug/tasks.o: ../../../../COMMON/interface/debug_assert.h
 VisualGDB/Debug/tasks.o: ../../../../COMMUNICATE/interface/console.h
-VisualGDB/Debug/tasks.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\stdbool.h
+VisualGDB/Debug/tasks.o: G:\MDK\ARM\ARMCC\bin\..\include\stdbool.h
 VisualGDB/Debug/tasks.o: ../../../../FreeRTOS/include/projdefs.h
 VisualGDB/Debug/tasks.o: ../../../../FreeRTOS/include/portable.h
 VisualGDB/Debug/tasks.o: ../../../../FreeRTOS/include/deprecated_definitions.h

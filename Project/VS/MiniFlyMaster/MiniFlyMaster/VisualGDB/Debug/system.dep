@@ -1,7 +1,7 @@
-VisualGDB/Debug/system.o: E:/VS_GDB/MiniFlyMaster/HARDWARE/src/system.c
+VisualGDB/Debug/system.o: E:/VS_GDB/testF411/MiniFlyMaster/HARDWARE/src/system.c
 VisualGDB/Debug/system.o: ../../../../HARDWARE/interface/system.h
 VisualGDB/Debug/system.o: ../../../../CONFIG/interface/FreeRTOSConfig.h
-VisualGDB/Debug/system.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\stdint.h
+VisualGDB/Debug/system.o: G:\MDK\ARM\ARMCC\bin\..\include\stdint.h
 VisualGDB/Debug/system.o: ../../../../CONFIG/interface/config.h
 VisualGDB/Debug/system.o: ../../../../HARDWARE/interface/nvic.h
 VisualGDB/Debug/system.o: ../../../../SYSTEM/sys/sys.h
@@ -33,12 +33,12 @@ VisualGDB/Debug/system.o: ../../../../FWLIB/inc/stm32f4xx_usart.h
 VisualGDB/Debug/system.o: ../../../../FWLIB/inc/stm32f4xx_wwdg.h
 VisualGDB/Debug/system.o: ../../../../FWLIB/inc/misc.h
 VisualGDB/Debug/system.o: ../../../../FWLIB/inc/stm32f4xx_flash_ramfunc.h
-VisualGDB/Debug/system.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\stdio.h
+VisualGDB/Debug/system.o: G:\MDK\ARM\ARMCC\bin\..\include\stdio.h
 VisualGDB/Debug/system.o: ../../../../COMMON/interface/debug_assert.h
 VisualGDB/Debug/system.o: ../../../../COMMUNICATE/interface/console.h
-VisualGDB/Debug/system.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\stdbool.h
+VisualGDB/Debug/system.o: G:\MDK\ARM\ARMCC\bin\..\include\stdbool.h
 VisualGDB/Debug/system.o: ../../../../FreeRTOS/include/FreeRTOS.h
-VisualGDB/Debug/system.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\stddef.h
+VisualGDB/Debug/system.o: G:\MDK\ARM\ARMCC\bin\..\include\stddef.h
 VisualGDB/Debug/system.o: ../../../../FreeRTOS/include/projdefs.h
 VisualGDB/Debug/system.o: ../../../../FreeRTOS/include/portable.h
 VisualGDB/Debug/system.o: ../../../../FreeRTOS/include/deprecated_definitions.h

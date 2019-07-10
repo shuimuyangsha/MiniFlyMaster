@@ -1,8 +1,8 @@
-VisualGDB/Debug/atkp.o: E:/VS_GDB/MiniFlyMaster/COMMUNICATE/src/atkp.c
-VisualGDB/Debug/atkp.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\string.h
-VisualGDB/Debug/atkp.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\stdint.h
-VisualGDB/Debug/atkp.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\stdio.h
-VisualGDB/Debug/atkp.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\stdbool.h
+VisualGDB/Debug/atkp.o: E:/VS_GDB/testF411/MiniFlyMaster/COMMUNICATE/src/atkp.c
+VisualGDB/Debug/atkp.o: G:\MDK\ARM\ARMCC\bin\..\include\string.h
+VisualGDB/Debug/atkp.o: G:\MDK\ARM\ARMCC\bin\..\include\stdint.h
+VisualGDB/Debug/atkp.o: G:\MDK\ARM\ARMCC\bin\..\include\stdio.h
+VisualGDB/Debug/atkp.o: G:\MDK\ARM\ARMCC\bin\..\include\stdbool.h
 VisualGDB/Debug/atkp.o: ../../../../COMMUNICATE/interface/atkp.h
 VisualGDB/Debug/atkp.o: ../../../../COMMUNICATE/interface/radiolink.h
 VisualGDB/Debug/atkp.o: ../../../../COMMUNICATE/interface/usblink.h
@@ -63,7 +63,7 @@ VisualGDB/Debug/atkp.o: ../../../../FLIGHT/interface/power_control.h
 VisualGDB/Debug/atkp.o: ../../../../COMMUNICATE/interface/remoter_ctrl.h
 VisualGDB/Debug/atkp.o: ../../../../HARDWARE/interface/module_detect.h
 VisualGDB/Debug/atkp.o: ../../../../FreeRTOS/include/FreeRTOS.h
-VisualGDB/Debug/atkp.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\stddef.h
+VisualGDB/Debug/atkp.o: G:\MDK\ARM\ARMCC\bin\..\include\stddef.h
 VisualGDB/Debug/atkp.o: ../../../../CONFIG/interface/FreeRTOSConfig.h
 VisualGDB/Debug/atkp.o: ../../../../COMMON/interface/debug_assert.h
 VisualGDB/Debug/atkp.o: ../../../../COMMUNICATE/interface/console.h

@@ -1,4 +1,4 @@
-VisualGDB/Debug/usbd_usr.o: E:/VS_GDB/MiniFlyMaster/USB/USB_APP/src/usbd_usr.c
+VisualGDB/Debug/usbd_usr.o: E:/VS_GDB/testF411/MiniFlyMaster/USB/USB_APP/src/usbd_usr.c
 VisualGDB/Debug/usbd_usr.o: ../../../../USB/STM32_USB_Device_Library/Core/inc/usbd_usr.h
 VisualGDB/Debug/usbd_usr.o: ../../../../USB/STM32_USB_Device_Library/Core/inc/usbd_ioreq.h
 VisualGDB/Debug/usbd_usr.o: ../../../../USB/STM32_USB_Device_Library/Core/inc/usbd_def.h
@@ -6,7 +6,7 @@ VisualGDB/Debug/usbd_usr.o: ../../../../USB/USB_APP/interface/usbd_conf.h
 VisualGDB/Debug/usbd_usr.o: ../../../../USB/USB_APP/interface/usb_conf.h
 VisualGDB/Debug/usbd_usr.o: ../../../../USER/stm32f4xx.h
 VisualGDB/Debug/usbd_usr.o: ../../../../CORE/core_cm4.h
-VisualGDB/Debug/usbd_usr.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\stdint.h
+VisualGDB/Debug/usbd_usr.o: G:\MDK\ARM\ARMCC\bin\..\include\stdint.h
 VisualGDB/Debug/usbd_usr.o: ../../../../CORE/core_cmInstr.h
 VisualGDB/Debug/usbd_usr.o: ../../../../CORE/core_cmFunc.h
 VisualGDB/Debug/usbd_usr.o: ../../../../CORE/core_cm4_simd.h
@@ -39,6 +39,6 @@ VisualGDB/Debug/usbd_usr.o: ../../../../USB/STM32_USB_OTG_Driver/inc/usb_core.h
 VisualGDB/Debug/usbd_usr.o: ../../../../USB/STM32_USB_OTG_Driver/inc/usb_regs.h
 VisualGDB/Debug/usbd_usr.o: ../../../../USB/STM32_USB_OTG_Driver/inc/usb_defines.h
 VisualGDB/Debug/usbd_usr.o: ../../../../USB/STM32_USB_OTG_Driver/inc/usb_dcd_int.h
-VisualGDB/Debug/usbd_usr.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\stdio.h
+VisualGDB/Debug/usbd_usr.o: G:\MDK\ARM\ARMCC\bin\..\include\stdio.h
 VisualGDB/Debug/usbd_usr.o: ../../../../SYSTEM/usart/usart.h
 VisualGDB/Debug/usbd_usr.o: ../../../../SYSTEM/sys/sys.h

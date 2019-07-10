@@ -1,12 +1,12 @@
-VisualGDB/Debug/comm.o: E:/VS_GDB/MiniFlyMaster/COMMUNICATE/src/comm.c
+VisualGDB/Debug/comm.o: E:/VS_GDB/testF411/MiniFlyMaster/COMMUNICATE/src/comm.c
 VisualGDB/Debug/comm.o: ../../../../COMMUNICATE/interface/comm.h
-VisualGDB/Debug/comm.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\stdbool.h
+VisualGDB/Debug/comm.o: G:\MDK\ARM\ARMCC\bin\..\include\stdbool.h
 VisualGDB/Debug/comm.o: ../../../../CONFIG/interface/config.h
 VisualGDB/Debug/comm.o: ../../../../HARDWARE/interface/nvic.h
 VisualGDB/Debug/comm.o: ../../../../SYSTEM/sys/sys.h
 VisualGDB/Debug/comm.o: ../../../../USER/stm32f4xx.h
 VisualGDB/Debug/comm.o: ../../../../CORE/core_cm4.h
-VisualGDB/Debug/comm.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\stdint.h
+VisualGDB/Debug/comm.o: G:\MDK\ARM\ARMCC\bin\..\include\stdint.h
 VisualGDB/Debug/comm.o: ../../../../CORE/core_cmInstr.h
 VisualGDB/Debug/comm.o: ../../../../CORE/core_cmFunc.h
 VisualGDB/Debug/comm.o: ../../../../CORE/core_cm4_simd.h
@@ -33,7 +33,7 @@ VisualGDB/Debug/comm.o: ../../../../FWLIB/inc/stm32f4xx_usart.h
 VisualGDB/Debug/comm.o: ../../../../FWLIB/inc/stm32f4xx_wwdg.h
 VisualGDB/Debug/comm.o: ../../../../FWLIB/inc/misc.h
 VisualGDB/Debug/comm.o: ../../../../FWLIB/inc/stm32f4xx_flash_ramfunc.h
-VisualGDB/Debug/comm.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\stdio.h
+VisualGDB/Debug/comm.o: G:\MDK\ARM\ARMCC\bin\..\include\stdio.h
 VisualGDB/Debug/comm.o: ../../../../COMMUNICATE/interface/console.h
 VisualGDB/Debug/comm.o: ../../../../COMMUNICATE/interface/radiolink.h
 VisualGDB/Debug/comm.o: ../../../../COMMUNICATE/interface/atkp.h

@@ -1,10 +1,10 @@
-VisualGDB/Debug/watchdog.o: E:/VS_GDB/MiniFlyMaster/HARDWARE/src/watchdog.c
+VisualGDB/Debug/watchdog.o: E:/VS_GDB/testF411/MiniFlyMaster/HARDWARE/src/watchdog.c
 VisualGDB/Debug/watchdog.o: ../../../../CONFIG/interface/config.h
 VisualGDB/Debug/watchdog.o: ../../../../HARDWARE/interface/nvic.h
 VisualGDB/Debug/watchdog.o: ../../../../SYSTEM/sys/sys.h
 VisualGDB/Debug/watchdog.o: ../../../../USER/stm32f4xx.h
 VisualGDB/Debug/watchdog.o: ../../../../CORE/core_cm4.h
-VisualGDB/Debug/watchdog.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\stdint.h
+VisualGDB/Debug/watchdog.o: G:\MDK\ARM\ARMCC\bin\..\include\stdint.h
 VisualGDB/Debug/watchdog.o: ../../../../CORE/core_cmInstr.h
 VisualGDB/Debug/watchdog.o: ../../../../CORE/core_cmFunc.h
 VisualGDB/Debug/watchdog.o: ../../../../CORE/core_cm4_simd.h
@@ -31,8 +31,8 @@ VisualGDB/Debug/watchdog.o: ../../../../FWLIB/inc/stm32f4xx_usart.h
 VisualGDB/Debug/watchdog.o: ../../../../FWLIB/inc/stm32f4xx_wwdg.h
 VisualGDB/Debug/watchdog.o: ../../../../FWLIB/inc/misc.h
 VisualGDB/Debug/watchdog.o: ../../../../FWLIB/inc/stm32f4xx_flash_ramfunc.h
-VisualGDB/Debug/watchdog.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\stdio.h
+VisualGDB/Debug/watchdog.o: G:\MDK\ARM\ARMCC\bin\..\include\stdio.h
 VisualGDB/Debug/watchdog.o: ../../../../HARDWARE/interface/watchdog.h
-VisualGDB/Debug/watchdog.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\stdbool.h
+VisualGDB/Debug/watchdog.o: G:\MDK\ARM\ARMCC\bin\..\include\stdbool.h
 VisualGDB/Debug/watchdog.o: ../../../../COMMON/interface/debug_assert.h
 VisualGDB/Debug/watchdog.o: ../../../../COMMUNICATE/interface/console.h

@@ -1,6 +1,6 @@
-VisualGDB/Debug/freeRTOSdebug.o: E:/VS_GDB/MiniFlyMaster/COMMON/src/freeRTOSdebug.c
-VisualGDB/Debug/freeRTOSdebug.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\stdint.h
-VisualGDB/Debug/freeRTOSdebug.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\stdio.h
+VisualGDB/Debug/freeRTOSdebug.o: E:/VS_GDB/testF411/MiniFlyMaster/COMMON/src/freeRTOSdebug.c
+VisualGDB/Debug/freeRTOSdebug.o: G:\MDK\ARM\ARMCC\bin\..\include\stdint.h
+VisualGDB/Debug/freeRTOSdebug.o: G:\MDK\ARM\ARMCC\bin\..\include\stdio.h
 VisualGDB/Debug/freeRTOSdebug.o: ../../../../CONFIG/interface/config.h
 VisualGDB/Debug/freeRTOSdebug.o: ../../../../HARDWARE/interface/nvic.h
 VisualGDB/Debug/freeRTOSdebug.o: ../../../../SYSTEM/sys/sys.h
@@ -33,12 +33,12 @@ VisualGDB/Debug/freeRTOSdebug.o: ../../../../FWLIB/inc/stm32f4xx_wwdg.h
 VisualGDB/Debug/freeRTOSdebug.o: ../../../../FWLIB/inc/misc.h
 VisualGDB/Debug/freeRTOSdebug.o: ../../../../FWLIB/inc/stm32f4xx_flash_ramfunc.h
 VisualGDB/Debug/freeRTOSdebug.o: ../../../../HARDWARE/interface/led.h
-VisualGDB/Debug/freeRTOSdebug.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\stdbool.h
+VisualGDB/Debug/freeRTOSdebug.o: G:\MDK\ARM\ARMCC\bin\..\include\stdbool.h
 VisualGDB/Debug/freeRTOSdebug.o: ../../../../CONFIG/interface/FreeRTOSConfig.h
 VisualGDB/Debug/freeRTOSdebug.o: ../../../../COMMON/interface/debug_assert.h
 VisualGDB/Debug/freeRTOSdebug.o: ../../../../COMMUNICATE/interface/console.h
 VisualGDB/Debug/freeRTOSdebug.o: ../../../../FreeRTOS/include/FreeRTOS.h
-VisualGDB/Debug/freeRTOSdebug.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\stddef.h
+VisualGDB/Debug/freeRTOSdebug.o: G:\MDK\ARM\ARMCC\bin\..\include\stddef.h
 VisualGDB/Debug/freeRTOSdebug.o: ../../../../FreeRTOS/include/projdefs.h
 VisualGDB/Debug/freeRTOSdebug.o: ../../../../FreeRTOS/include/portable.h
 VisualGDB/Debug/freeRTOSdebug.o: ../../../../FreeRTOS/include/deprecated_definitions.h

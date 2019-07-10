@@ -60,12 +60,12 @@
   commander.c
   ledseq.c
   console.c
-E:\VS_GDB\MiniFlyMaster\COMMUNICATE\src\ledseq.c(165): warning :   #767-D: conversion from pointer to smaller integer
+  pm.c
+E:\VS_GDB\testF411\MiniFlyMaster\COMMUNICATE\src\ledseq.c(165): warning :   #767-D: conversion from pointer to smaller integer
     	led_e led = (led_e)pvTimerGetTimerID(xTimer);
     	            ^
-  pm.c
   radiolink.c
-  E:/VS_GDB/MiniFlyMaster/COMMUNICATE/src/ledseq.c: 1 warning, 0 errors
+  E:/VS_GDB/testF411/MiniFlyMaster/COMMUNICATE/src/ledseq.c: 1 warning, 0 errors
   remoter_ctrl.c
   usblink.c
   wifi_ctrl.c
@@ -85,8 +85,8 @@ E:\VS_GDB\MiniFlyMaster\COMMUNICATE\src\ledseq.c(165): warning :   #767-D: conve
   filter.c
   startup_stm32f411xe.s
   Linking ../VisualGDB/Debug/MiniFlyMaster...
-  Program Size: Code=78520 RO-data=1524 RW-data=1468 ZI-data=43780  
-  Map file saved to file://E:\VS_GDB\MiniFlyMaster\Project\VS\MiniFlyMaster\VisualGDB\Debug\MiniFlyMaster.lst
+  Program Size: Code=78708 RO-data=1520 RW-data=1468 ZI-data=43780  
+  Map file saved to file://E:\VS_GDB\testF411\MiniFlyMaster\Project\VS\MiniFlyMaster\VisualGDB\Debug\MiniFlyMaster.lst
   ------------------- Memory utilization report -------------------
-  Used IROM1: 78KB out of 512KB (15%)
+  Used IROM1: 78KB out of 512KB (15%) [+184]
   Used IRAM1: 43KB out of 128KB (33%)

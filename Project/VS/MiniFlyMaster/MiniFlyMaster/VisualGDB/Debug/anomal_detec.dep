@@ -1,9 +1,9 @@
-VisualGDB/Debug/anomal_detec.o: E:/VS_GDB/MiniFlyMaster/FLIGHT/src/anomal_detec.c
-VisualGDB/Debug/anomal_detec.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\math.h
+VisualGDB/Debug/anomal_detec.o: E:/VS_GDB/testF411/MiniFlyMaster/FLIGHT/src/anomal_detec.c
+VisualGDB/Debug/anomal_detec.o: G:\MDK\ARM\ARMCC\bin\..\include\math.h
 VisualGDB/Debug/anomal_detec.o: ../../../../COMMUNICATE/interface/commander.h
 VisualGDB/Debug/anomal_detec.o: ../../../../COMMUNICATE/interface/atkp.h
-VisualGDB/Debug/anomal_detec.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\stdint.h
-VisualGDB/Debug/anomal_detec.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\stdbool.h
+VisualGDB/Debug/anomal_detec.o: G:\MDK\ARM\ARMCC\bin\..\include\stdint.h
+VisualGDB/Debug/anomal_detec.o: G:\MDK\ARM\ARMCC\bin\..\include\stdbool.h
 VisualGDB/Debug/anomal_detec.o: ../../../../CONFIG/interface/config.h
 VisualGDB/Debug/anomal_detec.o: ../../../../HARDWARE/interface/nvic.h
 VisualGDB/Debug/anomal_detec.o: ../../../../SYSTEM/sys/sys.h
@@ -35,7 +35,7 @@ VisualGDB/Debug/anomal_detec.o: ../../../../FWLIB/inc/stm32f4xx_usart.h
 VisualGDB/Debug/anomal_detec.o: ../../../../FWLIB/inc/stm32f4xx_wwdg.h
 VisualGDB/Debug/anomal_detec.o: ../../../../FWLIB/inc/misc.h
 VisualGDB/Debug/anomal_detec.o: ../../../../FWLIB/inc/stm32f4xx_flash_ramfunc.h
-VisualGDB/Debug/anomal_detec.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\stdio.h
+VisualGDB/Debug/anomal_detec.o: G:\MDK\ARM\ARMCC\bin\..\include\stdio.h
 VisualGDB/Debug/anomal_detec.o: ../../../../FLIGHT/interface/stabilizer_types.h
 VisualGDB/Debug/anomal_detec.o: ../../../../FLIGHT/interface/sensors_types.h
 VisualGDB/Debug/anomal_detec.o: ../../../../FLIGHT/interface/anomal_detec.h

@@ -1,9 +1,9 @@
-VisualGDB/Debug/queue.o: E:/VS_GDB/MiniFlyMaster/FreeRTOS/queue.c
-VisualGDB/Debug/queue.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\stdlib.h
-VisualGDB/Debug/queue.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\string.h
+VisualGDB/Debug/queue.o: E:/VS_GDB/testF411/MiniFlyMaster/FreeRTOS/queue.c
+VisualGDB/Debug/queue.o: G:\MDK\ARM\ARMCC\bin\..\include\stdlib.h
+VisualGDB/Debug/queue.o: G:\MDK\ARM\ARMCC\bin\..\include\string.h
 VisualGDB/Debug/queue.o: ../../../../FreeRTOS/include/FreeRTOS.h
-VisualGDB/Debug/queue.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\stddef.h
-VisualGDB/Debug/queue.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\stdint.h
+VisualGDB/Debug/queue.o: G:\MDK\ARM\ARMCC\bin\..\include\stddef.h
+VisualGDB/Debug/queue.o: G:\MDK\ARM\ARMCC\bin\..\include\stdint.h
 VisualGDB/Debug/queue.o: ../../../../CONFIG/interface/FreeRTOSConfig.h
 VisualGDB/Debug/queue.o: ../../../../CONFIG/interface/config.h
 VisualGDB/Debug/queue.o: ../../../../HARDWARE/interface/nvic.h
@@ -36,10 +36,10 @@ VisualGDB/Debug/queue.o: ../../../../FWLIB/inc/stm32f4xx_usart.h
 VisualGDB/Debug/queue.o: ../../../../FWLIB/inc/stm32f4xx_wwdg.h
 VisualGDB/Debug/queue.o: ../../../../FWLIB/inc/misc.h
 VisualGDB/Debug/queue.o: ../../../../FWLIB/inc/stm32f4xx_flash_ramfunc.h
-VisualGDB/Debug/queue.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\stdio.h
+VisualGDB/Debug/queue.o: G:\MDK\ARM\ARMCC\bin\..\include\stdio.h
 VisualGDB/Debug/queue.o: ../../../../COMMON/interface/debug_assert.h
 VisualGDB/Debug/queue.o: ../../../../COMMUNICATE/interface/console.h
-VisualGDB/Debug/queue.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\stdbool.h
+VisualGDB/Debug/queue.o: G:\MDK\ARM\ARMCC\bin\..\include\stdbool.h
 VisualGDB/Debug/queue.o: ../../../../FreeRTOS/include/projdefs.h
 VisualGDB/Debug/queue.o: ../../../../FreeRTOS/include/portable.h
 VisualGDB/Debug/queue.o: ../../../../FreeRTOS/include/deprecated_definitions.h

@@ -1,7 +1,7 @@
-VisualGDB/Debug/uart1.o: E:/VS_GDB/MiniFlyMaster/HARDWARE/src/uart1.c
+VisualGDB/Debug/uart1.o: E:/VS_GDB/testF411/MiniFlyMaster/HARDWARE/src/uart1.c
 VisualGDB/Debug/uart1.o: ../../../../FreeRTOS/include/FreeRTOS.h
-VisualGDB/Debug/uart1.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\stddef.h
-VisualGDB/Debug/uart1.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\stdint.h
+VisualGDB/Debug/uart1.o: G:\MDK\ARM\ARMCC\bin\..\include\stddef.h
+VisualGDB/Debug/uart1.o: G:\MDK\ARM\ARMCC\bin\..\include\stdint.h
 VisualGDB/Debug/uart1.o: ../../../../CONFIG/interface/FreeRTOSConfig.h
 VisualGDB/Debug/uart1.o: ../../../../CONFIG/interface/config.h
 VisualGDB/Debug/uart1.o: ../../../../HARDWARE/interface/nvic.h
@@ -34,10 +34,10 @@ VisualGDB/Debug/uart1.o: ../../../../FWLIB/inc/stm32f4xx_usart.h
 VisualGDB/Debug/uart1.o: ../../../../FWLIB/inc/stm32f4xx_wwdg.h
 VisualGDB/Debug/uart1.o: ../../../../FWLIB/inc/misc.h
 VisualGDB/Debug/uart1.o: ../../../../FWLIB/inc/stm32f4xx_flash_ramfunc.h
-VisualGDB/Debug/uart1.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\stdio.h
+VisualGDB/Debug/uart1.o: G:\MDK\ARM\ARMCC\bin\..\include\stdio.h
 VisualGDB/Debug/uart1.o: ../../../../COMMON/interface/debug_assert.h
 VisualGDB/Debug/uart1.o: ../../../../COMMUNICATE/interface/console.h
-VisualGDB/Debug/uart1.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\stdbool.h
+VisualGDB/Debug/uart1.o: G:\MDK\ARM\ARMCC\bin\..\include\stdbool.h
 VisualGDB/Debug/uart1.o: ../../../../FreeRTOS/include/projdefs.h
 VisualGDB/Debug/uart1.o: ../../../../FreeRTOS/include/portable.h
 VisualGDB/Debug/uart1.o: ../../../../FreeRTOS/include/deprecated_definitions.h
@@ -45,5 +45,5 @@ VisualGDB/Debug/uart1.o: ../../../../FreeRTOS/portable/RVDS/ARM_CM4F/portmacro.h
 VisualGDB/Debug/uart1.o: ../../../../FreeRTOS/include/mpu_wrappers.h
 VisualGDB/Debug/uart1.o: ../../../../FreeRTOS/include/queue.h
 VisualGDB/Debug/uart1.o: ../../../../FreeRTOS/include/semphr.h
-VisualGDB/Debug/uart1.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\string.h
+VisualGDB/Debug/uart1.o: G:\MDK\ARM\ARMCC\bin\..\include\string.h
 VisualGDB/Debug/uart1.o: ../../../../HARDWARE/interface/uart1.h

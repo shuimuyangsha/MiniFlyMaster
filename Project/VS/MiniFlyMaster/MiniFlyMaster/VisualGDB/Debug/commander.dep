@@ -1,9 +1,9 @@
-VisualGDB/Debug/commander.o: E:/VS_GDB/MiniFlyMaster/COMMUNICATE/src/commander.c
-VisualGDB/Debug/commander.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\math.h
+VisualGDB/Debug/commander.o: E:/VS_GDB/testF411/MiniFlyMaster/COMMUNICATE/src/commander.c
+VisualGDB/Debug/commander.o: G:\MDK\ARM\ARMCC\bin\..\include\math.h
 VisualGDB/Debug/commander.o: ../../../../COMMUNICATE/interface/commander.h
 VisualGDB/Debug/commander.o: ../../../../COMMUNICATE/interface/atkp.h
-VisualGDB/Debug/commander.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\stdint.h
-VisualGDB/Debug/commander.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\stdbool.h
+VisualGDB/Debug/commander.o: G:\MDK\ARM\ARMCC\bin\..\include\stdint.h
+VisualGDB/Debug/commander.o: G:\MDK\ARM\ARMCC\bin\..\include\stdbool.h
 VisualGDB/Debug/commander.o: ../../../../CONFIG/interface/config.h
 VisualGDB/Debug/commander.o: ../../../../HARDWARE/interface/nvic.h
 VisualGDB/Debug/commander.o: ../../../../SYSTEM/sys/sys.h
@@ -35,7 +35,7 @@ VisualGDB/Debug/commander.o: ../../../../FWLIB/inc/stm32f4xx_usart.h
 VisualGDB/Debug/commander.o: ../../../../FWLIB/inc/stm32f4xx_wwdg.h
 VisualGDB/Debug/commander.o: ../../../../FWLIB/inc/misc.h
 VisualGDB/Debug/commander.o: ../../../../FWLIB/inc/stm32f4xx_flash_ramfunc.h
-VisualGDB/Debug/commander.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\stdio.h
+VisualGDB/Debug/commander.o: G:\MDK\ARM\ARMCC\bin\..\include\stdio.h
 VisualGDB/Debug/commander.o: ../../../../FLIGHT/interface/stabilizer_types.h
 VisualGDB/Debug/commander.o: ../../../../FLIGHT/interface/sensors_types.h
 VisualGDB/Debug/commander.o: ../../../../CONFIG/interface/config_param.h
@@ -43,7 +43,7 @@ VisualGDB/Debug/commander.o: ../../../../COMMUNICATE/interface/radiolink.h
 VisualGDB/Debug/commander.o: ../../../../COMMUNICATE/interface/remoter_ctrl.h
 VisualGDB/Debug/commander.o: ../../../../HARDWARE/interface/module_detect.h
 VisualGDB/Debug/commander.o: ../../../../FreeRTOS/include/FreeRTOS.h
-VisualGDB/Debug/commander.o: C:\For DXH\MDK\ARM\ARMCC\bin\..\include\stddef.h
+VisualGDB/Debug/commander.o: G:\MDK\ARM\ARMCC\bin\..\include\stddef.h
 VisualGDB/Debug/commander.o: ../../../../CONFIG/interface/FreeRTOSConfig.h
 VisualGDB/Debug/commander.o: ../../../../COMMON/interface/debug_assert.h
 VisualGDB/Debug/commander.o: ../../../../COMMUNICATE/interface/console.h
