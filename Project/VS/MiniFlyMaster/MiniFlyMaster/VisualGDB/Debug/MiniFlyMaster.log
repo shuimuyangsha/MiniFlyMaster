@@ -1,8 +1,7 @@
 ﻿  main.c
-  usbd_cdc_vcp.c
   Linking ../VisualGDB/Debug/MiniFlyMaster...
-  Program Size: Code=78708 RO-data=1520 RW-data=1472 ZI-data=43784  
+  Program Size: Code=78708 RO-data=1520 RW-data=1476 ZI-data=43780  
   Map file saved to file://E:\VS_GDB\testF411\MiniFlyMaster\Project\VS\MiniFlyMaster\VisualGDB\Debug\MiniFlyMaster.lst
   ------------------- Memory utilization report -------------------
   Used IROM1: 78KB out of 512KB (15%)
-  Used IRAM1: 43KB out of 128KB (33%) [+4]
+  Used IRAM1: 43KB out of 128KB (33%) [-4]
