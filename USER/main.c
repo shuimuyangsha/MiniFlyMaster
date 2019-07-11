@@ -16,6 +16,7 @@
 
 TaskHandle_t startTaskHandle;
 static void startTask(void *arg);
+int dd1;
 
 int main() 
 {
