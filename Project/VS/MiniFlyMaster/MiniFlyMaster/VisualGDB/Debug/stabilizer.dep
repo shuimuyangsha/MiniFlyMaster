@@ -1,4 +1,4 @@
-VisualGDB/Debug/stabilizer.o: E:/VS_GDB/testF411/MiniFlyMaster/FLIGHT/src/stabilizer.c
+VisualGDB/Debug/stabilizer.o: E:/VS_GDB/ARM/testF411/MiniFlyMaster/FLIGHT/src/stabilizer.c
 VisualGDB/Debug/stabilizer.o: ../../../../HARDWARE/interface/system.h
 VisualGDB/Debug/stabilizer.o: ../../../../CONFIG/interface/FreeRTOSConfig.h
 VisualGDB/Debug/stabilizer.o: G:\MDK\ARM\ARMCC\bin\..\include\stdint.h

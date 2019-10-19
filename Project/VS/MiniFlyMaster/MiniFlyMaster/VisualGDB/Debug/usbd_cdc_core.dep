@@ -1,4 +1,4 @@
-VisualGDB/Debug/usbd_cdc_core.o: E:/VS_GDB/testF411/MiniFlyMaster/USB/STM32_USB_Device_Library/Class/cdc/src/usbd_cdc_core.c
+VisualGDB/Debug/usbd_cdc_core.o: E:/VS_GDB/ARM/testF411/MiniFlyMaster/USB/STM32_USB_Device_Library/Class/cdc/src/usbd_cdc_core.c
 VisualGDB/Debug/usbd_cdc_core.o: ../../../../USB/STM32_USB_Device_Library/Class/cdc/inc/usbd_cdc_core.h
 VisualGDB/Debug/usbd_cdc_core.o: ../../../../USB/STM32_USB_Device_Library/Core/inc/usbd_ioreq.h
 VisualGDB/Debug/usbd_cdc_core.o: ../../../../USB/STM32_USB_Device_Library/Core/inc/usbd_def.h

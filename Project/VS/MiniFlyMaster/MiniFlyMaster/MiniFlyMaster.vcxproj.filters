@@ -192,9 +192,6 @@
     <ClCompile Include="..\..\..\..\EXP_MODULES\src\module_mgt.c">
       <Filter>Source files\EXP_MODULES</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\CORE\startup_stm32f411xe.s">
-      <Filter>Source files\CORE</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\..\..\FWLIB\src\misc.c">
       <Filter>Source files\FWLIB</Filter>
     </ClCompile>
@@ -402,5 +399,11 @@
     <None Include="MCU.xml">
       <Filter>VisualGDB settings</Filter>
     </None>
+    <ClCompile Include="..\..\..\..\CORE\startup_stm32f411xe.s">
+      <Filter>Source files\CORE</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\..\..\..\..\嵌入式学习\资料\MiniFly微型四轴飞行器光盘\1，ATK-MiniFly微型四轴原理图\MiniFly V1.32.pdf" />
   </ItemGroup>
 </Project>

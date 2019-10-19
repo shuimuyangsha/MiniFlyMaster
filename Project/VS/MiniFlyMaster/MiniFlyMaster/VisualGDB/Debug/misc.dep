@@ -1,4 +1,4 @@
-VisualGDB/Debug/misc.o: E:/VS_GDB/testF411/MiniFlyMaster/FWLIB/src/misc.c
+VisualGDB/Debug/misc.o: E:/VS_GDB/ARM/testF411/MiniFlyMaster/FWLIB/src/misc.c
 VisualGDB/Debug/misc.o: ../../../../FWLIB/inc/misc.h
 VisualGDB/Debug/misc.o: ../../../../USER/stm32f4xx.h
 VisualGDB/Debug/misc.o: ../../../../CORE/core_cm4.h

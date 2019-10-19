@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|VisualGDB">
+      <Configuration>Debug</Configuration>
+      <Platform>VisualGDB</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|VisualGDB">
+      <Configuration>Release</Configuration>
+      <Platform>VisualGDB</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{68BBCD1B-B6A9-4565-982C-ED0660B467E0}</ProjectGuid>
+    <BSP_ID>KEIL:Keil/STM32F4xx_DFP</BSP_ID>
+    <BSP_VERSION>2.6.0</BSP_VERSION>
+    <InPlaceBSPSubdir />
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Debug|VisualGDB'">
+    <MCUPropertyListFile>$(ProjectDir)mcu.props</MCUPropertyListFile>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Release|VisualGDB'">
+    <MCUPropertyListFile>$(ProjectDir)mcu.props</MCUPropertyListFile>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|VisualGDB'">
+    <GNUConfigurationType>Debug</GNUConfigurationType>
+    <ToolchainID>com.sysprogs.toolchains.nongnu.armcc</ToolchainID>
+    <ToolchainVersion>5.x//r1</ToolchainVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|VisualGDB'">
+    <ToolchainID>com.sysprogs.toolchains.nongnu.armcc</ToolchainID>
+    <ToolchainVersion>5.x//r1</ToolchainVersion>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|VisualGDB'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\..\..\Bootloader_F411_V1_1\CORE;..\..\..\..\Bootloader_F411_V1_1\USER;..\..\..\..\Bootloader_F411_V1_1\FWLIB\inc;..\..\..\..\Bootloader_F411_V1_1\SYSTEM\interface;..\..\..\..\Bootloader_F411_V1_1\HARDWARE\interface;..\..\..\..\Bootloader_F411_V1_1\USB\STM32_USB_Device_Library\Core\inc;..\..\..\..\Bootloader_F411_V1_1\USB\STM32_USB_Device_Library\Class\cdc\inc;..\..\..\..\Bootloader_F411_V1_1\USB\STM32_USB_OTG_Driver\inc;..\..\..\..\Bootloader_F411_V1_1\USB\USB_APP\interface;..\..\..\..\Bootloader_F411_V1_1\PROTOCOL;..\..\..\..\Bootloader_F411_V1_1\IAP;%(ClCompile.AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>STM32F411xE;USE_STDPERIPH_DRIVER;USE_USB_OTG_FS;%(ClCompile.PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions />
+      <CLanguageStandard />
+      <CPPLanguageStandard />
+    </ClCompile>
+    <Link>
+      <AdditionalLinkerInputs>%(Link.AdditionalLinkerInputs)</AdditionalLinkerInputs>
+      <AdditionalOptions />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|VisualGDB'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\..\..\Bootloader_F411_V1_1\CORE;..\..\..\..\Bootloader_F411_V1_1\USER;..\..\..\..\Bootloader_F411_V1_1\FWLIB\inc;..\..\..\..\Bootloader_F411_V1_1\SYSTEM\interface;..\..\..\..\Bootloader_F411_V1_1\HARDWARE\interface;..\..\..\..\Bootloader_F411_V1_1\USB\STM32_USB_Device_Library\Core\inc;..\..\..\..\Bootloader_F411_V1_1\USB\STM32_USB_Device_Library\Class\cdc\inc;..\..\..\..\Bootloader_F411_V1_1\USB\STM32_USB_OTG_Driver\inc;..\..\..\..\Bootloader_F411_V1_1\USB\USB_APP\interface;..\..\..\..\Bootloader_F411_V1_1\PROTOCOL;..\..\..\..\Bootloader_F411_V1_1\IAP;%(ClCompile.AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>STM32F411xE;USE_STDPERIPH_DRIVER;USE_USB_OTG_FS;%(ClCompile.PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions />
+      <CLanguageStandard />
+      <CPPLanguageStandard />
+    </ClCompile>
+    <Link>
+      <AdditionalLinkerInputs>%(Link.AdditionalLinkerInputs)</AdditionalLinkerInputs>
+      <AdditionalOptions />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\Bootloader_F411_V1_1\USER\main.c" />
+    <ClCompile Include="..\..\..\..\Bootloader_F411_V1_1\USER\stm32f4xx_it.c" />
+    <ClCompile Include="..\..\..\..\Bootloader_F411_V1_1\USER\system_stm32f4xx.c" />
+    <ClCompile Include="..\..\..\..\Bootloader_F411_V1_1\CORE\startup_stm32f411xe.s" />
+    <ClCompile Include="..\..\..\..\Bootloader_F411_V1_1\SYSTEM\src\sys.c" />
+    <ClCompile Include="..\..\..\..\Bootloader_F411_V1_1\SYSTEM\src\delay.c" />
+    <ClCompile Include="..\..\..\..\Bootloader_F411_V1_1\HARDWARE\src\led.c" />
+    <ClCompile Include="..\..\..\..\Bootloader_F411_V1_1\HARDWARE\src\stmflash.c" />
+    <ClCompile Include="..\..\..\..\Bootloader_F411_V1_1\FWLIB\src\misc.c" />
+    <ClCompile Include="..\..\..\..\Bootloader_F411_V1_1\FWLIB\src\stm32f4xx_flash.c" />
+    <ClCompile Include="..\..\..\..\Bootloader_F411_V1_1\FWLIB\src\stm32f4xx_gpio.c" />
+    <ClCompile Include="..\..\..\..\Bootloader_F411_V1_1\FWLIB\src\stm32f4xx_rcc.c" />
+    <ClCompile Include="..\..\..\..\Bootloader_F411_V1_1\FWLIB\src\stm32f4xx_usart.c" />
+    <ClCompile Include="..\..\..\..\Bootloader_F411_V1_1\USB\STM32_USB_OTG_Driver\src\usb_core.c" />
+    <ClCompile Include="..\..\..\..\Bootloader_F411_V1_1\USB\STM32_USB_OTG_Driver\src\usb_dcd.c" />
+    <ClCompile Include="..\..\..\..\Bootloader_F411_V1_1\USB\STM32_USB_OTG_Driver\src\usb_dcd_int.c" />
+    <ClCompile Include="..\..\..\..\Bootloader_F411_V1_1\USB\STM32_USB_Device_Library\Core\src\usbd_core.c" />
+    <ClCompile Include="..\..\..\..\Bootloader_F411_V1_1\USB\STM32_USB_Device_Library\Core\src\usbd_ioreq.c" />
+    <ClCompile Include="..\..\..\..\Bootloader_F411_V1_1\USB\STM32_USB_Device_Library\Core\src\usbd_req.c" />
+    <ClCompile Include="..\..\..\..\Bootloader_F411_V1_1\USB\STM32_USB_Device_Library\Class\cdc\src\usbd_cdc_core.c" />
+    <ClCompile Include="..\..\..\..\Bootloader_F411_V1_1\USB\USB_APP\src\usb_bsp.c" />
+    <ClCompile Include="..\..\..\..\Bootloader_F411_V1_1\USB\USB_APP\src\usbd_cdc_vcp.c" />
+    <ClCompile Include="..\..\..\..\Bootloader_F411_V1_1\USB\USB_APP\src\usbd_desc.c" />
+    <ClCompile Include="..\..\..\..\Bootloader_F411_V1_1\USB\USB_APP\src\usbd_usr.c" />
+    <ClCompile Include="..\..\..\..\Bootloader_F411_V1_1\PROTOCOL\check.c" />
+    <ClCompile Include="..\..\..\..\Bootloader_F411_V1_1\PROTOCOL\protocol.c" />
+    <ClCompile Include="..\..\..\..\Bootloader_F411_V1_1\IAP\iap.c" />
+    <None Include="mcu.props" />
+    <None Include="..\..\..\..\Bootloader_F411_V1_1\readme.txt" />
+    <ClInclude Include="$(BSP_ROOT)\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h" />
+    <None Include="Bootloader_F411_V1_1-Debug.vgdbsettings" />
+    <None Include="Bootloader_F411_V1_1-Release.vgdbsettings" />
+    <None Include="MCU.xml" />
+  </ItemGroup>
+</Project>

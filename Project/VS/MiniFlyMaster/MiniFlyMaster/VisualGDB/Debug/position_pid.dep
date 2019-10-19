@@ -1,4 +1,4 @@
-VisualGDB/Debug/position_pid.o: E:/VS_GDB/testF411/MiniFlyMaster/FLIGHT/src/position_pid.c
+VisualGDB/Debug/position_pid.o: E:/VS_GDB/ARM/testF411/MiniFlyMaster/FLIGHT/src/position_pid.c
 VisualGDB/Debug/position_pid.o: G:\MDK\ARM\ARMCC\bin\..\include\math.h
 VisualGDB/Debug/position_pid.o: ../../../../FLIGHT/interface/pid.h
 VisualGDB/Debug/position_pid.o: ../../../../CONFIG/interface/config_param.h

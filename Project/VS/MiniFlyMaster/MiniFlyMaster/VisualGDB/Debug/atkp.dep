@@ -1,4 +1,4 @@
-VisualGDB/Debug/atkp.o: E:/VS_GDB/testF411/MiniFlyMaster/COMMUNICATE/src/atkp.c
+VisualGDB/Debug/atkp.o: E:/VS_GDB/ARM/testF411/MiniFlyMaster/COMMUNICATE/src/atkp.c
 VisualGDB/Debug/atkp.o: G:\MDK\ARM\ARMCC\bin\..\include\string.h
 VisualGDB/Debug/atkp.o: G:\MDK\ARM\ARMCC\bin\..\include\stdint.h
 VisualGDB/Debug/atkp.o: G:\MDK\ARM\ARMCC\bin\..\include\stdio.h

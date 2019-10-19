@@ -1,4 +1,4 @@
-VisualGDB/Debug/watchdog.o: E:/VS_GDB/testF411/MiniFlyMaster/HARDWARE/src/watchdog.c
+VisualGDB/Debug/watchdog.o: E:/VS_GDB/ARM/testF411/MiniFlyMaster/HARDWARE/src/watchdog.c
 VisualGDB/Debug/watchdog.o: ../../../../CONFIG/interface/config.h
 VisualGDB/Debug/watchdog.o: ../../../../HARDWARE/interface/nvic.h
 VisualGDB/Debug/watchdog.o: ../../../../SYSTEM/sys/sys.h

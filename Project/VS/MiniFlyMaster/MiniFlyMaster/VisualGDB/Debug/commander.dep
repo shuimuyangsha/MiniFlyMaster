@@ -1,4 +1,4 @@
-VisualGDB/Debug/commander.o: E:/VS_GDB/testF411/MiniFlyMaster/COMMUNICATE/src/commander.c
+VisualGDB/Debug/commander.o: E:/VS_GDB/ARM/testF411/MiniFlyMaster/COMMUNICATE/src/commander.c
 VisualGDB/Debug/commander.o: G:\MDK\ARM\ARMCC\bin\..\include\math.h
 VisualGDB/Debug/commander.o: ../../../../COMMUNICATE/interface/commander.h
 VisualGDB/Debug/commander.o: ../../../../COMMUNICATE/interface/atkp.h

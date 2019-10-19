@@ -1,4 +1,4 @@
-VisualGDB/Debug/stm32f4xx_spi.o: E:/VS_GDB/testF411/MiniFlyMaster/FWLIB/src/stm32f4xx_spi.c
+VisualGDB/Debug/stm32f4xx_spi.o: E:/VS_GDB/ARM/testF411/MiniFlyMaster/FWLIB/src/stm32f4xx_spi.c
 VisualGDB/Debug/stm32f4xx_spi.o: ../../../../FWLIB/inc/stm32f4xx_spi.h
 VisualGDB/Debug/stm32f4xx_spi.o: ../../../../USER/stm32f4xx.h
 VisualGDB/Debug/stm32f4xx_spi.o: ../../../../CORE/core_cm4.h

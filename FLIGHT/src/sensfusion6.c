@@ -116,7 +116,7 @@ void imuUpdate(Axis3f acc, Axis3f gyro, state_t *state , float dt)	/*数据融合 互
 	state->acc.z= tempacc.x* vecxZ + tempacc.y * vecyZ + tempacc.z * veczZ - baseZacc;	/*Z轴加速度(去除重力加速度)*/
 }
 
-// Fast inverse square-root
+// Fast inverse square-root 
 // See: http://en.wikipedia.org/wiki/Fast_inverse_square_root
 float invSqrt(float x)	/*快速开平方求倒*/
 {

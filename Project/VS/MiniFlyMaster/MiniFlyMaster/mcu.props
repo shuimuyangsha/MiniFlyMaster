@@ -27,7 +27,7 @@
 	<ItemDefinitionGroup>
 		<Link>
 			<RAMBase>0x20000000</RAMBase>
-			<ROMBase>0x08000000</ROMBase>
+			<ROMBase>0x08008000</ROMBase>
 			<EntryPoint>Reset_Handler</EntryPoint>
 			<FirstSymbol>__Vectors</FirstSymbol>
 		</Link>

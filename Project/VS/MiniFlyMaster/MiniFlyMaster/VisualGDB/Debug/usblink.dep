@@ -1,4 +1,4 @@
-VisualGDB/Debug/usblink.o: E:/VS_GDB/testF411/MiniFlyMaster/COMMUNICATE/src/usblink.c
+VisualGDB/Debug/usblink.o: E:/VS_GDB/ARM/testF411/MiniFlyMaster/COMMUNICATE/src/usblink.c
 VisualGDB/Debug/usblink.o: G:\MDK\ARM\ARMCC\bin\..\include\stdbool.h
 VisualGDB/Debug/usblink.o: G:\MDK\ARM\ARMCC\bin\..\include\string.h
 VisualGDB/Debug/usblink.o: ../../../../CONFIG/interface/config.h

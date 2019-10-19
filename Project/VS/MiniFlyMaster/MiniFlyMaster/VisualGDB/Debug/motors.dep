@@ -1,4 +1,4 @@
-VisualGDB/Debug/motors.o: E:/VS_GDB/testF411/MiniFlyMaster/HARDWARE/src/motors.c
+VisualGDB/Debug/motors.o: E:/VS_GDB/ARM/testF411/MiniFlyMaster/HARDWARE/src/motors.c
 VisualGDB/Debug/motors.o: ../../../../SYSTEM/sys/sys.h
 VisualGDB/Debug/motors.o: ../../../../USER/stm32f4xx.h
 VisualGDB/Debug/motors.o: ../../../../CORE/core_cm4.h

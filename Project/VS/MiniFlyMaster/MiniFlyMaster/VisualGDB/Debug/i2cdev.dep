@@ -1,4 +1,4 @@
-VisualGDB/Debug/i2cdev.o: E:/VS_GDB/testF411/MiniFlyMaster/HARDWARE/src/i2cdev.c
+VisualGDB/Debug/i2cdev.o: E:/VS_GDB/ARM/testF411/MiniFlyMaster/HARDWARE/src/i2cdev.c
 VisualGDB/Debug/i2cdev.o: G:\MDK\ARM\ARMCC\bin\..\include\stdint.h
 VisualGDB/Debug/i2cdev.o: G:\MDK\ARM\ARMCC\bin\..\include\stdbool.h
 VisualGDB/Debug/i2cdev.o: ../../../../HARDWARE/interface/i2cdev.h

@@ -1,4 +1,4 @@
-VisualGDB/Debug/nvic.o: E:/VS_GDB/testF411/MiniFlyMaster/HARDWARE/src/nvic.c
+VisualGDB/Debug/nvic.o: E:/VS_GDB/ARM/testF411/MiniFlyMaster/HARDWARE/src/nvic.c
 VisualGDB/Debug/nvic.o: ../../../../HARDWARE/interface/exti.h
 VisualGDB/Debug/nvic.o: G:\MDK\ARM\ARMCC\bin\..\include\stdbool.h
 VisualGDB/Debug/nvic.o: ../../../../HARDWARE/interface/led.h

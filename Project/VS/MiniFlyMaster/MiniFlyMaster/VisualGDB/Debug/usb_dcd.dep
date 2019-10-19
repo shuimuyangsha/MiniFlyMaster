@@ -1,4 +1,4 @@
-VisualGDB/Debug/usb_dcd.o: E:/VS_GDB/testF411/MiniFlyMaster/USB/STM32_USB_OTG_Driver/src/usb_dcd.c
+VisualGDB/Debug/usb_dcd.o: E:/VS_GDB/ARM/testF411/MiniFlyMaster/USB/STM32_USB_OTG_Driver/src/usb_dcd.c
 VisualGDB/Debug/usb_dcd.o: ../../../../USB/STM32_USB_OTG_Driver/inc/usb_dcd.h
 VisualGDB/Debug/usb_dcd.o: ../../../../USB/STM32_USB_OTG_Driver/inc/usb_core.h
 VisualGDB/Debug/usb_dcd.o: ../../../../USB/USB_APP/interface/usb_conf.h

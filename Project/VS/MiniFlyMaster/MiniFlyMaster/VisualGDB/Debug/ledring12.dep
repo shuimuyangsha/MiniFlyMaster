@@ -1,4 +1,4 @@
-VisualGDB/Debug/ledring12.o: E:/VS_GDB/testF411/MiniFlyMaster/EXP_MODULES/src/ledring12.c
+VisualGDB/Debug/ledring12.o: E:/VS_GDB/ARM/testF411/MiniFlyMaster/EXP_MODULES/src/ledring12.c
 VisualGDB/Debug/ledring12.o: G:\MDK\ARM\ARMCC\bin\..\include\stdint.h
 VisualGDB/Debug/ledring12.o: G:\MDK\ARM\ARMCC\bin\..\include\math.h
 VisualGDB/Debug/ledring12.o: G:\MDK\ARM\ARMCC\bin\..\include\string.h

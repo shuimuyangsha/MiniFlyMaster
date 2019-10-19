@@ -1,4 +1,4 @@
-VisualGDB/Debug/power_control.o: E:/VS_GDB/testF411/MiniFlyMaster/FLIGHT/src/power_control.c
+VisualGDB/Debug/power_control.o: E:/VS_GDB/ARM/testF411/MiniFlyMaster/FLIGHT/src/power_control.c
 VisualGDB/Debug/power_control.o: ../../../../FLIGHT/interface/power_control.h
 VisualGDB/Debug/power_control.o: ../../../../FLIGHT/interface/stabilizer_types.h
 VisualGDB/Debug/power_control.o: ../../../../SYSTEM/sys/sys.h

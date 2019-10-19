@@ -1,4 +1,4 @@
-VisualGDB/Debug/ak8963.o: E:/VS_GDB/testF411/MiniFlyMaster/HARDWARE/src/ak8963.c
+VisualGDB/Debug/ak8963.o: E:/VS_GDB/ARM/testF411/MiniFlyMaster/HARDWARE/src/ak8963.c
 VisualGDB/Debug/ak8963.o: ../../../../CONFIG/interface/config.h
 VisualGDB/Debug/ak8963.o: ../../../../HARDWARE/interface/nvic.h
 VisualGDB/Debug/ak8963.o: ../../../../SYSTEM/sys/sys.h

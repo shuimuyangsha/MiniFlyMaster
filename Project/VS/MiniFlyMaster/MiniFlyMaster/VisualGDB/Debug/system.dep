@@ -1,4 +1,4 @@
-VisualGDB/Debug/system.o: E:/VS_GDB/testF411/MiniFlyMaster/HARDWARE/src/system.c
+VisualGDB/Debug/system.o: E:/VS_GDB/ARM/testF411/MiniFlyMaster/HARDWARE/src/system.c
 VisualGDB/Debug/system.o: ../../../../HARDWARE/interface/system.h
 VisualGDB/Debug/system.o: ../../../../CONFIG/interface/FreeRTOSConfig.h
 VisualGDB/Debug/system.o: G:\MDK\ARM\ARMCC\bin\..\include\stdint.h

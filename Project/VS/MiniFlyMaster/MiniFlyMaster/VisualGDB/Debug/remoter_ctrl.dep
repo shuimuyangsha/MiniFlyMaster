@@ -1,4 +1,4 @@
-VisualGDB/Debug/remoter_ctrl.o: E:/VS_GDB/testF411/MiniFlyMaster/COMMUNICATE/src/remoter_ctrl.c
+VisualGDB/Debug/remoter_ctrl.o: E:/VS_GDB/ARM/testF411/MiniFlyMaster/COMMUNICATE/src/remoter_ctrl.c
 VisualGDB/Debug/remoter_ctrl.o: G:\MDK\ARM\ARMCC\bin\..\include\string.h
 VisualGDB/Debug/remoter_ctrl.o: G:\MDK\ARM\ARMCC\bin\..\include\math.h
 VisualGDB/Debug/remoter_ctrl.o: ../../../../COMMUNICATE/interface/remoter_ctrl.h

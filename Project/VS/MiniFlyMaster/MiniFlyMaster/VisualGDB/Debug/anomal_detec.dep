@@ -1,4 +1,4 @@
-VisualGDB/Debug/anomal_detec.o: E:/VS_GDB/testF411/MiniFlyMaster/FLIGHT/src/anomal_detec.c
+VisualGDB/Debug/anomal_detec.o: E:/VS_GDB/ARM/testF411/MiniFlyMaster/FLIGHT/src/anomal_detec.c
 VisualGDB/Debug/anomal_detec.o: G:\MDK\ARM\ARMCC\bin\..\include\math.h
 VisualGDB/Debug/anomal_detec.o: ../../../../COMMUNICATE/interface/commander.h
 VisualGDB/Debug/anomal_detec.o: ../../../../COMMUNICATE/interface/atkp.h

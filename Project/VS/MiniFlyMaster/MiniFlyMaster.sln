@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MiniFlyMaster", "MiniFlyMaster\MiniFlyMaster.vcxproj", "{358BFE73-2AAD-4E3C-84C2-80A75C6E0C52}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bootloader_F411_V1_1", "Bootloader_F411_V1_1\Bootloader_F411_V1_1.vcxproj", "{68BBCD1B-B6A9-4565-982C-ED0660B467E0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|VisualGDB = Debug|VisualGDB
@@ -15,6 +17,10 @@ Global
 		{358BFE73-2AAD-4E3C-84C2-80A75C6E0C52}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
 		{358BFE73-2AAD-4E3C-84C2-80A75C6E0C52}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
 		{358BFE73-2AAD-4E3C-84C2-80A75C6E0C52}.Release|VisualGDB.Build.0 = Release|VisualGDB
+		{68BBCD1B-B6A9-4565-982C-ED0660B467E0}.Debug|VisualGDB.ActiveCfg = Debug|VisualGDB
+		{68BBCD1B-B6A9-4565-982C-ED0660B467E0}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
+		{68BBCD1B-B6A9-4565-982C-ED0660B467E0}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
+		{68BBCD1B-B6A9-4565-982C-ED0660B467E0}.Release|VisualGDB.Build.0 = Release|VisualGDB
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

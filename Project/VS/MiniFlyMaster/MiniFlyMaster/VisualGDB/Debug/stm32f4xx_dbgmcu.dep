@@ -1,4 +1,4 @@
-VisualGDB/Debug/stm32f4xx_dbgmcu.o: E:/VS_GDB/testF411/MiniFlyMaster/FWLIB/src/stm32f4xx_dbgmcu.c
+VisualGDB/Debug/stm32f4xx_dbgmcu.o: E:/VS_GDB/ARM/testF411/MiniFlyMaster/FWLIB/src/stm32f4xx_dbgmcu.c
 VisualGDB/Debug/stm32f4xx_dbgmcu.o: ../../../../FWLIB/inc/stm32f4xx_dbgmcu.h
 VisualGDB/Debug/stm32f4xx_dbgmcu.o: ../../../../USER/stm32f4xx.h
 VisualGDB/Debug/stm32f4xx_dbgmcu.o: ../../../../CORE/core_cm4.h

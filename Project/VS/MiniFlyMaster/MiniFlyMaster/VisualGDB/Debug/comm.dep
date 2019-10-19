@@ -1,4 +1,4 @@
-VisualGDB/Debug/comm.o: E:/VS_GDB/testF411/MiniFlyMaster/COMMUNICATE/src/comm.c
+VisualGDB/Debug/comm.o: E:/VS_GDB/ARM/testF411/MiniFlyMaster/COMMUNICATE/src/comm.c
 VisualGDB/Debug/comm.o: ../../../../COMMUNICATE/interface/comm.h
 VisualGDB/Debug/comm.o: G:\MDK\ARM\ARMCC\bin\..\include\stdbool.h
 VisualGDB/Debug/comm.o: ../../../../CONFIG/interface/config.h

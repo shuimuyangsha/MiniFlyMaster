@@ -1,4 +1,4 @@
-VisualGDB/Debug/state_estimator.o: E:/VS_GDB/testF411/MiniFlyMaster/FLIGHT/src/state_estimator.c
+VisualGDB/Debug/state_estimator.o: E:/VS_GDB/ARM/testF411/MiniFlyMaster/FLIGHT/src/state_estimator.c
 VisualGDB/Debug/state_estimator.o: G:\MDK\ARM\ARMCC\bin\..\include\math.h
 VisualGDB/Debug/state_estimator.o: ../../../../FLIGHT/interface/sensfusion6.h
 VisualGDB/Debug/state_estimator.o: ../../../../FLIGHT/interface/stabilizer_types.h

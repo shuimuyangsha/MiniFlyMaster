@@ -1,4 +1,4 @@
-VisualGDB/Debug/pid.o: E:/VS_GDB/testF411/MiniFlyMaster/FLIGHT/src/pid.c
+VisualGDB/Debug/pid.o: E:/VS_GDB/ARM/testF411/MiniFlyMaster/FLIGHT/src/pid.c
 VisualGDB/Debug/pid.o: ../../../../FLIGHT/interface/pid.h
 VisualGDB/Debug/pid.o: ../../../../CONFIG/interface/config_param.h
 VisualGDB/Debug/pid.o: ../../../../SYSTEM/sys/sys.h

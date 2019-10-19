@@ -1,4 +1,4 @@
-VisualGDB/Debug/ledseq.o: E:/VS_GDB/testF411/MiniFlyMaster/COMMUNICATE/src/ledseq.c
+VisualGDB/Debug/ledseq.o: E:/VS_GDB/ARM/testF411/MiniFlyMaster/COMMUNICATE/src/ledseq.c
 VisualGDB/Debug/ledseq.o: G:\MDK\ARM\ARMCC\bin\..\include\stdbool.h
 VisualGDB/Debug/ledseq.o: ../../../../HARDWARE/interface/led.h
 VisualGDB/Debug/ledseq.o: ../../../../SYSTEM/sys/sys.h

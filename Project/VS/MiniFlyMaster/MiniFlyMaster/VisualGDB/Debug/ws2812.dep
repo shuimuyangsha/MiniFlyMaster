@@ -1,4 +1,4 @@
-VisualGDB/Debug/ws2812.o: E:/VS_GDB/testF411/MiniFlyMaster/HARDWARE/src/ws2812.c
+VisualGDB/Debug/ws2812.o: E:/VS_GDB/ARM/testF411/MiniFlyMaster/HARDWARE/src/ws2812.c
 VisualGDB/Debug/ws2812.o: G:\MDK\ARM\ARMCC\bin\..\include\string.h
 VisualGDB/Debug/ws2812.o: ../../../../HARDWARE/interface/ws2812.h
 VisualGDB/Debug/ws2812.o: G:\MDK\ARM\ARMCC\bin\..\include\stdbool.h

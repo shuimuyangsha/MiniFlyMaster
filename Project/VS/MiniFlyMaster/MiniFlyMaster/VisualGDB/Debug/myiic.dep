@@ -1,4 +1,4 @@
-VisualGDB/Debug/myiic.o: E:/VS_GDB/testF411/MiniFlyMaster/HARDWARE/src/myiic.c
+VisualGDB/Debug/myiic.o: E:/VS_GDB/ARM/testF411/MiniFlyMaster/HARDWARE/src/myiic.c
 VisualGDB/Debug/myiic.o: ../../../../HARDWARE/interface/myiic.h
 VisualGDB/Debug/myiic.o: ../../../../SYSTEM/sys/sys.h
 VisualGDB/Debug/myiic.o: ../../../../USER/stm32f4xx.h

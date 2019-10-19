@@ -1,4 +1,4 @@
-VisualGDB/Debug/radiolink.o: E:/VS_GDB/testF411/MiniFlyMaster/COMMUNICATE/src/radiolink.c
+VisualGDB/Debug/radiolink.o: E:/VS_GDB/ARM/testF411/MiniFlyMaster/COMMUNICATE/src/radiolink.c
 VisualGDB/Debug/radiolink.o: G:\MDK\ARM\ARMCC\bin\..\include\string.h
 VisualGDB/Debug/radiolink.o: ../../../../CONFIG/interface/config.h
 VisualGDB/Debug/radiolink.o: ../../../../HARDWARE/interface/nvic.h

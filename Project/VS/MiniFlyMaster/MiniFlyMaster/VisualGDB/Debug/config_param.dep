@@ -1,4 +1,4 @@
-VisualGDB/Debug/config_param.o: E:/VS_GDB/testF411/MiniFlyMaster/CONFIG/src/config_param.c
+VisualGDB/Debug/config_param.o: E:/VS_GDB/ARM/testF411/MiniFlyMaster/CONFIG/src/config_param.c
 VisualGDB/Debug/config_param.o: G:\MDK\ARM\ARMCC\bin\..\include\stdbool.h
 VisualGDB/Debug/config_param.o: G:\MDK\ARM\ARMCC\bin\..\include\string.h
 VisualGDB/Debug/config_param.o: G:\MDK\ARM\ARMCC\bin\..\include\math.h

@@ -1,4 +1,4 @@
-VisualGDB/Debug/sensors.o: E:/VS_GDB/testF411/MiniFlyMaster/FLIGHT/src/sensors.c
+VisualGDB/Debug/sensors.o: E:/VS_GDB/ARM/testF411/MiniFlyMaster/FLIGHT/src/sensors.c
 VisualGDB/Debug/sensors.o: G:\MDK\ARM\ARMCC\bin\..\include\math.h
 VisualGDB/Debug/sensors.o: G:\MDK\ARM\ARMCC\bin\..\include\stdio.h
 VisualGDB/Debug/sensors.o: ../../../../SYSTEM/delay/delay.h

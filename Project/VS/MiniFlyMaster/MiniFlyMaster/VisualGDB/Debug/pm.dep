@@ -1,4 +1,4 @@
-VisualGDB/Debug/pm.o: E:/VS_GDB/testF411/MiniFlyMaster/COMMUNICATE/src/pm.c
+VisualGDB/Debug/pm.o: E:/VS_GDB/ARM/testF411/MiniFlyMaster/COMMUNICATE/src/pm.c
 VisualGDB/Debug/pm.o: ../../../../SYSTEM/sys/sys.h
 VisualGDB/Debug/pm.o: ../../../../USER/stm32f4xx.h
 VisualGDB/Debug/pm.o: ../../../../CORE/core_cm4.h

@@ -1,5 +1,5 @@
-VisualGDB/Debug/delay.o: E:/VS_GDB/testF411/MiniFlyMaster/SYSTEM/delay/delay.c
-VisualGDB/Debug/delay.o: E:/VS_GDB/testF411/MiniFlyMaster/SYSTEM/delay/delay.h
+VisualGDB/Debug/delay.o: E:/VS_GDB/ARM/testF411/MiniFlyMaster/SYSTEM/delay/delay.c
+VisualGDB/Debug/delay.o: E:/VS_GDB/ARM/testF411/MiniFlyMaster/SYSTEM/delay/delay.h
 VisualGDB/Debug/delay.o: ../../../../SYSTEM/sys/sys.h
 VisualGDB/Debug/delay.o: ../../../../USER/stm32f4xx.h
 VisualGDB/Debug/delay.o: ../../../../CORE/core_cm4.h

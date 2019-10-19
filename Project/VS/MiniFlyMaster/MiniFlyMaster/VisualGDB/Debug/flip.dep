@@ -1,4 +1,4 @@
-VisualGDB/Debug/flip.o: E:/VS_GDB/testF411/MiniFlyMaster/FLIGHT/src/flip.c
+VisualGDB/Debug/flip.o: E:/VS_GDB/ARM/testF411/MiniFlyMaster/FLIGHT/src/flip.c
 VisualGDB/Debug/flip.o: G:\MDK\ARM\ARMCC\bin\..\include\math.h
 VisualGDB/Debug/flip.o: ../../../../FLIGHT/interface/flip.h
 VisualGDB/Debug/flip.o: ../../../../FLIGHT/interface/stabilizer_types.h

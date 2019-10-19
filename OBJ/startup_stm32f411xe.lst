@@ -764,13 +764,12 @@ ARM Macro Assembler    Page 12
               00000000 
               00000000 
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M4.fp --apcs=int
-erwork --depend=..\obj\startup_stm32f411xe.d -o..\obj\startup_stm32f411xe.o -I"
-E:\嵌入式学习\资料\MiniFly微型四轴飞行器光盘\2，MiniFly程序源码\2 , MiniFly V1.
-1\1，MiniFly Master\2，STM32F411\Firmware_F411 V1.1\USER\RTE" -IG:\MDK\ARM\PACK
-\Keil\STM32F4xx_DFP\2.6.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IG:\MDK\AR
-M\CMSIS\Include --predefine="__MICROLIB SETA 1" --predefine="__UVISION_VERSION 
-SETA 521" --predefine="STM32F411xE SETA 1" --list=..\obj\startup_stm32f411xe.ls
-t ..\CORE\startup_stm32f411xe.s
+erwork --depend=..\obj\startup_stm32f411xe.d -o..\obj\startup_stm32f411xe.o -IE
+:\VS_GDB\ARM\testF411\MiniFlyMaster\USER\RTE -IG:\MDK\ARM\PACK\Keil\STM32F4xx_D
+FP\2.6.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IG:\MDK\ARM\CMSIS\Include -
+-predefine="__MICROLIB SETA 1" --predefine="__UVISION_VERSION SETA 521" --prede
+fine="STM32F411xE SETA 1" --list=..\obj\startup_stm32f411xe.lst ..\CORE\startup
+_stm32f411xe.s
 
 
 

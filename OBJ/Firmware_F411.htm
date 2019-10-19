@@ -3,7 +3,7 @@
 <title>Static Call Graph - [..\OBJ\Firmware_F411.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image ..\OBJ\Firmware_F411.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060300: Last Updated: Thu Jun 27 15:16:43 2019
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060300: Last Updated: Sat Oct 19 16:08:52 2019
 <BR><P>
 <H3>Maximum Stack Usage =        424 bytes + Unknown(Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -2680,8 +2680,8 @@ Global Symbols
 <BR><BR>[Called By]<UL><LI><a href="#[18d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sendMsgACK
 </UL>
 
-<P><STRONG><a name="[1bd]"></a>getModuleDriverID</STRONG> (Thumb, 226 bytes, Stack size 16 bytes, module_detect.o(i.getModuleDriverID))
-<BR><BR>[Stack]<UL><LI>Max Depth = 36<LI>Call Chain = getModuleDriverID &rArr; GPIO_Init
+<P><STRONG><a name="[1bd]"></a>getModuleDriverID</STRONG> (Thumb, 232 bytes, Stack size 24 bytes, module_detect.o(i.getModuleDriverID))
+<BR><BR>[Stack]<UL><LI>Max Depth = 44<LI>Call Chain = getModuleDriverID &rArr; GPIO_Init
 </UL>
 <BR>[Calls]<UL><LI><a href="#[129]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_Init
 <LI><a href="#[1d4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_ReadInputDataBit
@@ -2897,7 +2897,7 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[299]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;stateEstimator
 </UL>
 
-<P><STRONG><a name="[a9]"></a>ledClearAll</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, led.o(i.ledClearAll))
+<P><STRONG><a name="[a9]"></a>ledClearAll</STRONG> (Thumb, 26 bytes, Stack size 8 bytes, led.o(i.ledClearAll))
 <BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = ledClearAll &rArr; ledSet
 </UL>
 <BR>[Calls]<UL><LI><a href="#[aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ledSet
@@ -3641,7 +3641,7 @@ Global Symbols
 <BR><BR>[Called By]<UL><LI><a href="#[84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;stabilizerTask
 </UL>
 
-<P><STRONG><a name="[28c]"></a>sensorsDeviceInit</STRONG> (Thumb, 266 bytes, Stack size 16 bytes, sensors.o(i.sensorsDeviceInit))
+<P><STRONG><a name="[28c]"></a>sensorsDeviceInit</STRONG> (Thumb, 268 bytes, Stack size 16 bytes, sensors.o(i.sensorsDeviceInit))
 <BR><BR>[Stack]<UL><LI>Max Depth = 408<LI>Call Chain = sensorsDeviceInit &rArr; mpu6500SetFullScaleGyroRange &rArr; i2cdevWriteBits &rArr; i2cdevWriteByte &rArr; i2cdevWrite &rArr; i2cdrvMessageTransfer &rArr; i2cdrvTryToRestartBus &rArr; i2cdrvInitBus &rArr; xQueueCreateMutex &rArr; prvInitialiseMutex &rArr; xQueueGenericSend &rArr; prvUnlockQueue &rArr; prvNotifyQueueSetContainer &rArr; prvCopyDataToQueue &rArr; xTaskPriorityDisinherit
 </UL>
 <BR>[Calls]<UL><LI><a href="#[168]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xQueueGenericCreate
@@ -4120,7 +4120,7 @@ Global Symbols
 <LI><a href="#[17c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;atkpSendPacket
 </UL>
 
-<P><STRONG><a name="[7e]"></a>usblinkTxTask</STRONG> (Thumb, 116 bytes, Stack size 96 bytes, usblink.o(i.usblinkTxTask))
+<P><STRONG><a name="[7e]"></a>usblinkTxTask</STRONG> (Thumb, 120 bytes, Stack size 96 bytes, usblink.o(i.usblinkTxTask))
 <BR><BR>[Stack]<UL><LI>Max Depth = 328<LI>Call Chain = usblinkTxTask &rArr; ledseqRun &rArr; runLedseq &rArr; xTimerGenericCommand &rArr; xQueueGenericSend &rArr; prvUnlockQueue &rArr; prvNotifyQueueSetContainer &rArr; prvCopyDataToQueue &rArr; xTaskPriorityDisinherit
 </UL>
 <BR>[Calls]<UL><LI><a href="#[16c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xQueueGenericReceive
@@ -4130,7 +4130,7 @@ Global Symbols
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> main.o(i.startTask)
 </UL>
-<P><STRONG><a name="[2b8]"></a>usbsendData</STRONG> (Thumb, 24 bytes, Stack size 16 bytes, usbd_cdc_vcp.o(i.usbsendData))
+<P><STRONG><a name="[2b8]"></a>usbsendData</STRONG> (Thumb, 26 bytes, Stack size 16 bytes, usbd_cdc_vcp.o(i.usbsendData))
 <BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = usbsendData
 </UL>
 <BR>[Calls]<UL><LI><a href="#[20]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VCP_DataTx
@@ -5042,8 +5042,8 @@ Local Symbols
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> ledring12.o(.data)
 </UL>
-<P><STRONG><a name="[2]"></a>colorTest</STRONG> (Thumb, 166 bytes, Stack size 8 bytes, ledring12.o(i.colorTest))
-<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = colorTest
+<P><STRONG><a name="[2]"></a>colorTest</STRONG> (Thumb, 168 bytes, Stack size 12 bytes, ledring12.o(i.colorTest))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = colorTest
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> ledring12.o(.data)
 </UL>
@@ -5055,7 +5055,7 @@ Local Symbols
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> ledring12.o(.data)
 </UL>
-<P><STRONG><a name="[6]"></a>flashlight</STRONG> (Thumb, 40 bytes, Stack size 8 bytes, ledring12.o(i.flashlight))
+<P><STRONG><a name="[6]"></a>flashlight</STRONG> (Thumb, 42 bytes, Stack size 8 bytes, ledring12.o(i.flashlight))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = flashlight
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> ledring12.o(.data)
@@ -5627,7 +5627,7 @@ Local Symbols
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> usbd_cdc_vcp.o(.data)
 </UL>
-<P><STRONG><a name="[21]"></a>VCP_DataRx</STRONG> (Thumb, 42 bytes, Stack size 24 bytes, usbd_cdc_vcp.o(i.VCP_DataRx))
+<P><STRONG><a name="[21]"></a>VCP_DataRx</STRONG> (Thumb, 44 bytes, Stack size 24 bytes, usbd_cdc_vcp.o(i.VCP_DataRx))
 <BR><BR>[Stack]<UL><LI>Max Depth = 136<LI>Call Chain = VCP_DataRx &rArr; xQueueGenericSendFromISR &rArr; prvNotifyQueueSetContainer &rArr; prvCopyDataToQueue &rArr; xTaskPriorityDisinherit
 </UL>
 <BR>[Calls]<UL><LI><a href="#[100]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xQueueGenericSendFromISR
@@ -5659,7 +5659,7 @@ Local Symbols
 <BR>[Called By]<UL><LI><a href="#[e9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Get_SerialNum
 </UL>
 
-<P><STRONG><a name="[176]"></a>atkpCheckSum</STRONG> (Thumb, 44 bytes, Stack size 0 bytes, atkp.o(i.atkpCheckSum))
+<P><STRONG><a name="[176]"></a>atkpCheckSum</STRONG> (Thumb, 46 bytes, Stack size 0 bytes, atkp.o(i.atkpCheckSum))
 <BR><BR>[Called By]<UL><LI><a href="#[16e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;atkpReceiveAnl
 </UL>
 
@@ -5865,7 +5865,7 @@ Local Symbols
 <BR>[Called By]<UL><LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;radiolinkTask
 </UL>
 
-<P><STRONG><a name="[16d]"></a>uartSendPacket</STRONG> (Thumb, 96 bytes, Stack size 56 bytes, radiolink.o(i.uartSendPacket))
+<P><STRONG><a name="[16d]"></a>uartSendPacket</STRONG> (Thumb, 98 bytes, Stack size 56 bytes, radiolink.o(i.uartSendPacket))
 <BR><BR>[Stack]<UL><LI>Max Depth = 216<LI>Call Chain = uartSendPacket &rArr; uartslkSendDataDmaBlocking &rArr; xQueueGenericSend &rArr; prvUnlockQueue &rArr; prvNotifyQueueSetContainer &rArr; prvCopyDataToQueue &rArr; xTaskPriorityDisinherit
 </UL>
 <BR>[Calls]<UL><LI><a href="#[165]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;assertFail
@@ -5962,7 +5962,7 @@ Local Symbols
 <BR><BR>[Called By]<UL><LI><a href="#[1fa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;imuUpdate
 </UL>
 
-<P><STRONG><a name="[163]"></a>applyAxis3fLpf</STRONG> (Thumb, 52 bytes, Stack size 16 bytes, sensors.o(i.applyAxis3fLpf))
+<P><STRONG><a name="[163]"></a>applyAxis3fLpf</STRONG> (Thumb, 54 bytes, Stack size 16 bytes, sensors.o(i.applyAxis3fLpf))
 <BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = applyAxis3fLpf
 </UL>
 <BR>[Calls]<UL><LI><a href="#[164]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lpf2pApply

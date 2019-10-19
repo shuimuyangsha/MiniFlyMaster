@@ -23,7 +23,7 @@
 
 typedef struct SNAPSHOT_DATA 
 {
-	u32 magicNumber;
+	u32 magicNumber; //神奇的数字
 	char* fileName;
 	int line;
 } SNAPSHOT_DATA;
@@ -56,14 +56,14 @@ void assertFail(char *exp, char *file, int line)
 	while (1);
 }
 
-void storeAssertSnapshotData(char *file, int line)
+void storeAssertSnapshotData(char *file, int line)//存储断言快照数据 store Assert Snapshot Data 
 {
 	snapshot.magicNumber = MAGIC_ASSERT_INDICATOR;
 	snapshot.fileName = file;
 	snapshot.line = line;
 }
 
-void printAssertSnapshotData()
+void printAssertSnapshotData()//打印断言快照数据
 {
 	if (MAGIC_ASSERT_INDICATOR == snapshot.magicNumber) 
 	{

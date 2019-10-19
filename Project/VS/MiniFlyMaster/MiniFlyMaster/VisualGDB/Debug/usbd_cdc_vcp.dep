@@ -1,4 +1,4 @@
-VisualGDB/Debug/usbd_cdc_vcp.o: E:/VS_GDB/testF411/MiniFlyMaster/USB/USB_APP/src/usbd_cdc_vcp.c
+VisualGDB/Debug/usbd_cdc_vcp.o: E:/VS_GDB/ARM/testF411/MiniFlyMaster/USB/USB_APP/src/usbd_cdc_vcp.c
 VisualGDB/Debug/usbd_cdc_vcp.o: ../../../../USB/USB_APP/interface/usbd_cdc_vcp.h
 VisualGDB/Debug/usbd_cdc_vcp.o: ../../../../USER/stm32f4xx.h
 VisualGDB/Debug/usbd_cdc_vcp.o: ../../../../CORE/core_cm4.h

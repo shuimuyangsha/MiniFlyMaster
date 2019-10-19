@@ -1,4 +1,4 @@
-VisualGDB/Debug/state_control.o: E:/VS_GDB/testF411/MiniFlyMaster/FLIGHT/src/state_control.c
+VisualGDB/Debug/state_control.o: E:/VS_GDB/ARM/testF411/MiniFlyMaster/FLIGHT/src/state_control.c
 VisualGDB/Debug/state_control.o: G:\MDK\ARM\ARMCC\bin\..\include\string.h
 VisualGDB/Debug/state_control.o: ../../../../FLIGHT/interface/stabilizer.h
 VisualGDB/Debug/state_control.o: G:\MDK\ARM\ARMCC\bin\..\include\stdbool.h

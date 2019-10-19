@@ -1,4 +1,4 @@
-VisualGDB/Debug/freeRTOSdebug.o: E:/VS_GDB/testF411/MiniFlyMaster/COMMON/src/freeRTOSdebug.c
+VisualGDB/Debug/freeRTOSdebug.o: E:/VS_GDB/ARM/testF411/MiniFlyMaster/COMMON/src/freeRTOSdebug.c
 VisualGDB/Debug/freeRTOSdebug.o: G:\MDK\ARM\ARMCC\bin\..\include\stdint.h
 VisualGDB/Debug/freeRTOSdebug.o: G:\MDK\ARM\ARMCC\bin\..\include\stdio.h
 VisualGDB/Debug/freeRTOSdebug.o: ../../../../CONFIG/interface/config.h

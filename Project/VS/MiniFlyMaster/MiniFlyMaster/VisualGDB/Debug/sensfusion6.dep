@@ -1,4 +1,4 @@
-VisualGDB/Debug/sensfusion6.o: E:/VS_GDB/testF411/MiniFlyMaster/FLIGHT/src/sensfusion6.c
+VisualGDB/Debug/sensfusion6.o: E:/VS_GDB/ARM/testF411/MiniFlyMaster/FLIGHT/src/sensfusion6.c
 VisualGDB/Debug/sensfusion6.o: G:\MDK\ARM\ARMCC\bin\..\include\math.h
 VisualGDB/Debug/sensfusion6.o: ../../../../FLIGHT/interface/sensfusion6.h
 VisualGDB/Debug/sensfusion6.o: ../../../../FLIGHT/interface/stabilizer_types.h

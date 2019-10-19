@@ -1,4 +1,4 @@
-VisualGDB/Debug/usbd_req.o: E:/VS_GDB/testF411/MiniFlyMaster/USB/STM32_USB_Device_Library/Core/src/usbd_req.c
+VisualGDB/Debug/usbd_req.o: E:/VS_GDB/ARM/testF411/MiniFlyMaster/USB/STM32_USB_Device_Library/Core/src/usbd_req.c
 VisualGDB/Debug/usbd_req.o: ../../../../USB/STM32_USB_Device_Library/Core/inc/usbd_req.h
 VisualGDB/Debug/usbd_req.o: ../../../../USB/STM32_USB_Device_Library/Core/inc/usbd_def.h
 VisualGDB/Debug/usbd_req.o: ../../../../USB/USB_APP/interface/usbd_conf.h

@@ -1,4 +1,4 @@
-VisualGDB/Debug/attitude_pid.o: E:/VS_GDB/testF411/MiniFlyMaster/FLIGHT/src/attitude_pid.c
+VisualGDB/Debug/attitude_pid.o: E:/VS_GDB/ARM/testF411/MiniFlyMaster/FLIGHT/src/attitude_pid.c
 VisualGDB/Debug/attitude_pid.o: G:\MDK\ARM\ARMCC\bin\..\include\stdbool.h
 VisualGDB/Debug/attitude_pid.o: ../../../../FLIGHT/interface/pid.h
 VisualGDB/Debug/attitude_pid.o: ../../../../CONFIG/interface/config_param.h

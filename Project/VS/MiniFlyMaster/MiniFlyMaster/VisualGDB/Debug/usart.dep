@@ -1,4 +1,4 @@
-VisualGDB/Debug/usart.o: E:/VS_GDB/testF411/MiniFlyMaster/SYSTEM/usart/usart.c
+VisualGDB/Debug/usart.o: E:/VS_GDB/ARM/testF411/MiniFlyMaster/SYSTEM/usart/usart.c
 VisualGDB/Debug/usart.o: ../../../../SYSTEM/sys/sys.h
 VisualGDB/Debug/usart.o: ../../../../USER/stm32f4xx.h
 VisualGDB/Debug/usart.o: ../../../../CORE/core_cm4.h
@@ -29,7 +29,7 @@ VisualGDB/Debug/usart.o: ../../../../FWLIB/inc/stm32f4xx_usart.h
 VisualGDB/Debug/usart.o: ../../../../FWLIB/inc/stm32f4xx_wwdg.h
 VisualGDB/Debug/usart.o: ../../../../FWLIB/inc/misc.h
 VisualGDB/Debug/usart.o: ../../../../FWLIB/inc/stm32f4xx_flash_ramfunc.h
-VisualGDB/Debug/usart.o: E:/VS_GDB/testF411/MiniFlyMaster/SYSTEM/usart/usart.h
+VisualGDB/Debug/usart.o: E:/VS_GDB/ARM/testF411/MiniFlyMaster/SYSTEM/usart/usart.h
 VisualGDB/Debug/usart.o: G:\MDK\ARM\ARMCC\bin\..\include\stdio.h
 VisualGDB/Debug/usart.o: ../../../../FreeRTOS/include/FreeRTOS.h
 VisualGDB/Debug/usart.o: G:\MDK\ARM\ARMCC\bin\..\include\stddef.h

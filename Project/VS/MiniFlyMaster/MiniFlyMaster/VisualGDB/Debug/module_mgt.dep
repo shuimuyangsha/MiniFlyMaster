@@ -1,4 +1,4 @@
-VisualGDB/Debug/module_mgt.o: E:/VS_GDB/testF411/MiniFlyMaster/EXP_MODULES/src/module_mgt.c
+VisualGDB/Debug/module_mgt.o: E:/VS_GDB/ARM/testF411/MiniFlyMaster/EXP_MODULES/src/module_mgt.c
 VisualGDB/Debug/module_mgt.o: ../../../../EXP_MODULES/interface/module_mgt.h
 VisualGDB/Debug/module_mgt.o: ../../../../SYSTEM/sys/sys.h
 VisualGDB/Debug/module_mgt.o: ../../../../USER/stm32f4xx.h

@@ -1,4 +1,4 @@
-VisualGDB/Debug/wifi_ctrl.o: E:/VS_GDB/testF411/MiniFlyMaster/COMMUNICATE/src/wifi_ctrl.c
+VisualGDB/Debug/wifi_ctrl.o: E:/VS_GDB/ARM/testF411/MiniFlyMaster/COMMUNICATE/src/wifi_ctrl.c
 VisualGDB/Debug/wifi_ctrl.o: G:\MDK\ARM\ARMCC\bin\..\include\string.h
 VisualGDB/Debug/wifi_ctrl.o: G:\MDK\ARM\ARMCC\bin\..\include\math.h
 VisualGDB/Debug/wifi_ctrl.o: ../../../../COMMUNICATE/interface/wifi_ctrl.h

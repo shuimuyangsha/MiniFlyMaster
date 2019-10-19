@@ -27,7 +27,7 @@
     <AllDependencies>
       <ProjectDependency>
         <RelativePath>..\..\..\..\USER\Firmware_F411.uvprojx</RelativePath>
-        <Timestamp>132069030565587322</Timestamp>
+        <Timestamp>132159462776402662</Timestamp>
       </ProjectDependency>
     </AllDependencies>
     <RootDirectory>
@@ -149,11 +149,7 @@
         </VirtualDirectorySnapshot>
         <VirtualDirectorySnapshot>
           <Name>CORE</Name>
-          <Files>
-            <VirtualFileSnapshot>
-              <RelativePath>..\..\..\..\CORE\startup_stm32f411xe.s</RelativePath>
-            </VirtualFileSnapshot>
-          </Files>
+          <Files />
         </VirtualDirectorySnapshot>
         <VirtualDirectorySnapshot>
           <Name>FWLIB</Name>
@@ -387,26 +383,27 @@
       <ImportedConfiguration>
         <Settings>
           <IncludeDirectories>
-            <string>E:\VS_GDB\MiniFlyMaster\CORE</string>
-            <string>E:\VS_GDB\MiniFlyMaster\SYSTEM\delay</string>
-            <string>E:\VS_GDB\MiniFlyMaster\SYSTEM\sys</string>
-            <string>E:\VS_GDB\MiniFlyMaster\SYSTEM\usart</string>
-            <string>E:\VS_GDB\MiniFlyMaster\USER</string>
-            <string>E:\VS_GDB\MiniFlyMaster\FWLIB\inc</string>
-            <string>E:\VS_GDB\MiniFlyMaster\CONFIG\interface</string>
-            <string>E:\VS_GDB\MiniFlyMaster\HARDWARE\interface</string>
-            <string>E:\VS_GDB\MiniFlyMaster\FreeRTOS\include</string>
-            <string>E:\VS_GDB\MiniFlyMaster\FreeRTOS\portable\RVDS\ARM_CM4F</string>
-            <string>E:\VS_GDB\MiniFlyMaster\USB\STM32_USB_Device_Library\Core\inc</string>
-            <string>E:\VS_GDB\MiniFlyMaster\USB\STM32_USB_Device_Library\Class\cdc\inc</string>
-            <string>E:\VS_GDB\MiniFlyMaster\USB\STM32_USB_OTG_Driver\inc</string>
-            <string>E:\VS_GDB\MiniFlyMaster\USB\USB_APP\interface</string>
-            <string>E:\VS_GDB\MiniFlyMaster\FLIGHT\interface</string>
-            <string>E:\VS_GDB\MiniFlyMaster\COMMON\interface</string>
-            <string>E:\VS_GDB\MiniFlyMaster\COMMUNICATE\interface</string>
-            <string>E:\VS_GDB\MiniFlyMaster\EXP_MODULES\interface</string>
+            <string>E:\VS_GDB\ARM\testF411\MiniFlyMaster\CORE</string>
+            <string>E:\VS_GDB\ARM\testF411\MiniFlyMaster\SYSTEM\delay</string>
+            <string>E:\VS_GDB\ARM\testF411\MiniFlyMaster\SYSTEM\sys</string>
+            <string>E:\VS_GDB\ARM\testF411\MiniFlyMaster\SYSTEM\usart</string>
+            <string>E:\VS_GDB\ARM\testF411\MiniFlyMaster\USER</string>
+            <string>E:\VS_GDB\ARM\testF411\MiniFlyMaster\FWLIB\inc</string>
+            <string>E:\VS_GDB\ARM\testF411\MiniFlyMaster\CONFIG\interface</string>
+            <string>E:\VS_GDB\ARM\testF411\MiniFlyMaster\HARDWARE\interface</string>
+            <string>E:\VS_GDB\ARM\testF411\MiniFlyMaster\FreeRTOS\include</string>
+            <string>E:\VS_GDB\ARM\testF411\MiniFlyMaster\FreeRTOS\portable\RVDS\ARM_CM4F</string>
+            <string>E:\VS_GDB\ARM\testF411\MiniFlyMaster\USB\STM32_USB_Device_Library\Core\inc</string>
+            <string>E:\VS_GDB\ARM\testF411\MiniFlyMaster\USB\STM32_USB_Device_Library\Class\cdc\inc</string>
+            <string>E:\VS_GDB\ARM\testF411\MiniFlyMaster\USB\STM32_USB_OTG_Driver\inc</string>
+            <string>E:\VS_GDB\ARM\testF411\MiniFlyMaster\USB\USB_APP\interface</string>
+            <string>E:\VS_GDB\ARM\testF411\MiniFlyMaster\FLIGHT\interface</string>
+            <string>E:\VS_GDB\ARM\testF411\MiniFlyMaster\COMMON\interface</string>
+            <string>E:\VS_GDB\ARM\testF411\MiniFlyMaster\COMMUNICATE\interface</string>
+            <string>E:\VS_GDB\ARM\testF411\MiniFlyMaster\EXP_MODULES\interface</string>
           </IncludeDirectories>
           <PreprocessorMacros>
+            <string>$$com.sysprogs.bspoptions.primary_memory$$_layout</string>
             <string>STM32F411xE</string>
             <string>ARM_MATH_CM4</string>
             <string>USE_STDPERIPH_DRIVER</string>

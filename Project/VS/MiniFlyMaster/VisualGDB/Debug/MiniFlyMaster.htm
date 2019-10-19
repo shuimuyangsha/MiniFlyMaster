@@ -3,7 +3,7 @@
 <title>Static Call Graph - [../VisualGDB/Debug/MiniFlyMaster]</title></head>
 <body><HR>
 <H1>Static Call Graph for image ../VisualGDB/Debug/MiniFlyMaster</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060300: Last Updated: Thu Jul 11 16:53:52 2019
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060300: Last Updated: Sat Oct 19 17:33:14 2019
 <BR><P>
 <H3>Maximum Stack Usage =        472 bytes + Unknown(Functions without stacksize, Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -2617,10 +2617,10 @@ Global Symbols
 <BR><BR>[Stack]<UL><LI>Max Depth = 400 + Unknown Stack Size
 <LI>Call Chain = bmp280Init &rArr; i2cdevWriteByte &rArr; i2cdevWrite &rArr; i2cdrvMessageTransfer &rArr; i2cdrvTryToRestartBus &rArr; i2cdrvInitBus &rArr; xQueueCreateMutex &rArr; xQueueGenericCreate &rArr; pvPortMalloc &rArr; vApplicationMallocFailedHook &rArr; __2printf &rArr; _printf_char_file &rArr; _printf_char_common &rArr; __printf
 </UL>
-<BR>[Calls]<UL><LI><a href="#[1cd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;i2cdevWriteByte
+<BR>[Calls]<UL><LI><a href="#[1ca]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_xms
+<LI><a href="#[1cd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;i2cdevWriteByte
 <LI><a href="#[1cb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;i2cdevReadByte
 <LI><a href="#[1cc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;i2cdevRead
-<LI><a href="#[1ca]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_xms
 <LI><a href="#[b1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2printf
 </UL>
 <BR>[Called By]<UL><LI><a href="#[2ba]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sensorsDeviceInit
@@ -2987,9 +2987,9 @@ Global Symbols
 <LI><a href="#[20a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;i2cdrvCreateMessageIntAddr
 <LI><a href="#[209]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;i2cdrvCreateMessage
 </UL>
-<BR>[Called By]<UL><LI><a href="#[1cb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;i2cdevReadByte
-<LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sensorsTask
+<BR>[Called By]<UL><LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sensorsTask
 <LI><a href="#[1c9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmp280Init
+<LI><a href="#[1cb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;i2cdevReadByte
 </UL>
 
 <P><STRONG><a name="[20c]"></a>i2cdevReadBits</STRONG> (Thumb, 84 bytes, Stack size 40 bytes, i2cdev.o(i.i2cdevReadBits))
@@ -3007,10 +3007,10 @@ Global Symbols
 </UL>
 <BR>[Calls]<UL><LI><a href="#[1cc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;i2cdevRead
 </UL>
-<BR>[Called By]<UL><LI><a href="#[20f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;i2cdevWriteBits
-<LI><a href="#[20e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;i2cdevWriteBit
-<LI><a href="#[20c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;i2cdevReadBits
+<BR>[Called By]<UL><LI><a href="#[20c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;i2cdevReadBits
 <LI><a href="#[1c9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmp280Init
+<LI><a href="#[20f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;i2cdevWriteBits
+<LI><a href="#[20e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;i2cdevWriteBit
 </UL>
 
 <P><STRONG><a name="[20d]"></a>i2cdevWrite</STRONG> (Thumb, 68 bytes, Stack size 56 bytes, i2cdev.o(i.i2cdevWrite))
@@ -3070,9 +3070,9 @@ Global Symbols
 </UL>
 <BR>[Calls]<UL><LI><a href="#[20d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;i2cdevWrite
 </UL>
-<BR>[Called By]<UL><LI><a href="#[20f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;i2cdevWriteBits
+<BR>[Called By]<UL><LI><a href="#[1c9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmp280Init
+<LI><a href="#[20f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;i2cdevWriteBits
 <LI><a href="#[20e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;i2cdevWriteBit
-<LI><a href="#[1c9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmp280Init
 <LI><a href="#[261]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mpu6500SetSlaveRegister
 <LI><a href="#[25c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mpu6500SetSlaveAddress
 <LI><a href="#[25a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mpu6500SetRate
@@ -3986,10 +3986,10 @@ Global Symbols
 <BR><BR>[Stack]<UL><LI>Max Depth = 472 + Unknown Stack Size
 <LI>Call Chain = sensorsTask &rArr; sensorsInit &rArr; sensorsDeviceInit &rArr; mpu6500SetFullScaleGyroRange &rArr; i2cdevWriteBits &rArr; i2cdevWriteByte &rArr; i2cdevWrite &rArr; i2cdrvMessageTransfer &rArr; i2cdrvTryToRestartBus &rArr; i2cdrvInitBus &rArr; xQueueCreateMutex &rArr; xQueueGenericCreate &rArr; pvPortMalloc &rArr; vApplicationMallocFailedHook &rArr; __2printf &rArr; _printf_char_file &rArr; _printf_char_common &rArr; __printf
 </UL>
-<BR>[Calls]<UL><LI><a href="#[1cc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;i2cdevRead
-<LI><a href="#[1a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xQueueGenericSend
+<BR>[Calls]<UL><LI><a href="#[1a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xQueueGenericSend
 <LI><a href="#[198]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xQueueGenericReceive
 <LI><a href="#[1bb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vTaskDelay
+<LI><a href="#[1cc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;i2cdevRead
 <LI><a href="#[285]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xTaskResumeAll
 <LI><a href="#[284]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vTaskSuspendAll
 <LI><a href="#[2bc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sensorsInit
