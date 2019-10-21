@@ -159,6 +159,8 @@
     <ClCompile Include="..\..\..\..\COMMON\src\freeRTOSdebug.c" />
     <ClCompile Include="..\..\..\..\COMMON\src\filter.c" />
     <None Include="..\..\..\..\..\..\..\..\嵌入式学习\资料\MiniFly微型四轴飞行器光盘\1，ATK-MiniFly微型四轴原理图\MiniFly V1.32.pdf" />
+    <None Include="..\..\..\..\..\..\..\..\嵌入式学习\资料\MiniFly微型四轴飞行器光盘\ATK-MiniFly微型四轴开发指南_V1.1.pdf" />
+    <None Include="..\..\..\..\MiniFlyMaster框架.vsdx" />
     <None Include="mcu.props" />
     <ClInclude Include="..\..\..\..\CONFIG\interface\config.h" />
     <ClInclude Include="..\..\..\..\CONFIG\interface\config_param.h" />
