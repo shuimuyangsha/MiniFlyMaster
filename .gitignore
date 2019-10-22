@@ -1,10 +1,15 @@
-﻿################################################################################
-# 此 .gitignore 文件已由 Microsoft(R) Visual Studio 自动创建。
-################################################################################
+﻿
+Project/VS/MiniFlyMasterr/MiniFlyMaster/VisualGDB/Debug/
+Project/VS/MiniFlyMaster/VisualGDB/Debug/
+Project/VS/MiniFlyMaster/.vs
 
-/Project/VS/MiniFlyMaster/.vs/MiniFlyMaster/v15/Browse.VC.opendb
-/Project/VS/MiniFlyMaster/.vs/MiniFlyMaster/v15/Browse.VC.db
-/Project/VS/MiniFlyMaster/.vs/MiniFlyMaster/v15/.suo
+Project/VS/MiniFlyMasterr/Bootloader_F411_V1_1/VisualGDB/Debug/
+
+
+OBJ/
+
+Bootloader_F411_V1_1/OBJ/
+
 *.o
 *.ipch
 *.db
