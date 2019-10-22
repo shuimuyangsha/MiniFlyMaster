@@ -103,6 +103,7 @@ bool motorsTest(void)
 	return isInit;
 }
 
+u16 chackRatio;
 /*设置电机PWM占空比*/
 void motorsSetRatio(u32 id, u16 ithrust)
 {
@@ -117,6 +118,7 @@ void motorsSetRatio(u32 id, u16 ithrust)
 		float percentage = volts / supply_voltage;
 		percentage = percentage > 1.0f ? 1.0f : percentage;
 		ratio = percentage * UINT16_MAX;
+		chackRatio = ratio;
 		motor_ratios[id] = ratio;		
 	#endif
 		
