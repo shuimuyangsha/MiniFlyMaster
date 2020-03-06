@@ -71,6 +71,7 @@ void stabilizerTask(void* param)
 	
 	while(1) 
 	{
+
 		vTaskDelayUntil(&lastWakeTime, MAIN_LOOP_DT);		/*1ms周期延时*/
 
 		sensorsAcquire(&sensorData, tick);					/*获取6轴和气压数据*/

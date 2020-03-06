@@ -17,12 +17,12 @@
 
 typedef struct
 {
-	float estimatedZ; // The current Z estimate, has same offset as asl
-	float velocityZ; // Vertical speed (world frame) integrated from vertical acceleration (m/s)
+	float estimatedZ; // 当前的Z估计值与asl具有相同的偏移量 The current Z estimate, has same offset as asl
+	float velocityZ; // 由垂直加速度(m/s)积分得到的垂直速度(世界坐标系) Vertical speed (world frame) integrated from vertical acceleration (m/s)
 	float estAlpha;
 	float velocityFactor;
-	float vAccDeadband; // Vertical acceleration deadband
-	float velZAlpha;   // Blending factor to avoid vertical speed to accumulate error
+	float vAccDeadband; // 垂直加速度死区 Vertical acceleration deadband
+	float velZAlpha;   // 混合因子避免了垂直速度积累误差 Blending factor to avoid vertical speed to accumulate error
 	float velocityX;	/* x 方向速度(世界坐标系) 由x方向加速度积分得出 单位(m/s)*/
 	float velocityY;	/* y 方向速度(世界坐标系) 由y方向加速度积分得出 单位(m/s)*/
 } selfState_t;
